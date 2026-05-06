@@ -5,13 +5,13 @@ import shutil
 import subprocess
 import tempfile
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import List, Optional, Sequence
 
 import re
 
 import pdfplumber
 
-from .models import Paragraph
+from .models import Paragraph, Table
 from .utils import normalize_text, text_head, text_tail
 
 
@@ -27,7 +27,7 @@ class DocxMapper:
         self,
         docx_path: str,
         pdf_path: Optional[str] = None,
-        work_dir: Optional[str] = "temp",
+        work_dir: Optional[str] = None,
         head_len: int = 300,
         tail_len: int = 300,
         min_head_len: int = 120,
@@ -84,6 +84,58 @@ class DocxMapper:
             return self.pdf_path
         output_dir = self.work_dir or tempfile.mkdtemp(prefix="docx_pdf_")
         return self._convert_docx_to_pdf(output_dir)
+
+    def refine_table_pages(
+        self,
+        blocks: Sequence,
+    ) -> None:
+        pdf_path = self._ensure_pdf()
+        pages = self._extract_pdf_pages(pdf_path)
+        if not pages:
+            return
+
+        page_map = {page.page_number: page for page in pages}
+        page_numbers = sorted(page_map)
+        if not page_numbers:
+            return
+        first_page = page_numbers[0]
+        last_page = page_numbers[-1]
+
+        for block in blocks:
+            if not isinstance(block, Table):
+                continue
+            if not block.pages:
+                continue
+
+            table_text = self._normalize_table_for_match(block)
+            if not table_text:
+                continue
+
+            current_page = block.pages[0]
+            if current_page < first_page:
+                current_page = first_page
+            elif current_page > last_page:
+                current_page = last_page
+
+            candidates = set()
+            for page in block.pages:
+                for delta in (-1, 0, 1):
+                    candidate = page + delta
+                    if first_page <= candidate <= last_page:
+                        candidates.add(candidate)
+
+            best_page = current_page
+            best_score = self._token_overlap(
+                table_text, page_map[current_page].normalized
+            )
+            for candidate in sorted(candidates):
+                score = self._token_overlap(table_text, page_map[candidate].normalized)
+                if score > best_score:
+                    best_page = candidate
+                    best_score = score
+
+            if best_score >= self.min_token_overlap:
+                block.pages = [best_page]
 
     def _convert_docx_to_pdf(self, output_dir: str) -> str:
         libreoffice = self._find_libreoffice()
@@ -174,3 +226,10 @@ class DocxMapper:
         trimmed = re.sub(r"\s+[0-9]+\s*$", "", trimmed)
         trimmed = re.sub(r"\s+[ivxlcdm]+\s*$", "", trimmed, flags=re.IGNORECASE)
         return trimmed
+
+    def _normalize_table_for_match(self, table: Table) -> str:
+        rows = table.meta.get("rows", [])
+        if not rows:
+            return ""
+        text = " ".join(" ".join(row) for row in rows)
+        return normalize_text(text)

@@ -100,13 +100,11 @@ class BlockOrganizer:
                 caption = self._find_nearest_caption(blocks, index, consumed, block)
                 if caption is not None:
                     block.title = caption
-                    if caption.pages:
-                        block.pages = list(caption.pages)
                     block.meta["title_text"] = caption.text
                     consumed.add(caption.block_id)
                 else:
                     fallback = self._find_nearest_paragraph(blocks, index, consumed)
-                    if fallback is not None and fallback.pages:
+                    if isinstance(block, Image) and fallback is not None and fallback.pages:
                         block.pages = list(fallback.pages)
 
         filtered: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures] = []

@@ -27,4 +27,7 @@ class DocxExtractor:
         paragraphs = [block for block in blocks if isinstance(block, Paragraph)]
         if map_pages:
             self.mapper.map_paragraphs(paragraphs)
-        return self.organizer.organize(blocks)
+        merged = self.organizer.organize(blocks)
+        if map_pages:
+            self.mapper.refine_table_pages(merged)
+        return merged
