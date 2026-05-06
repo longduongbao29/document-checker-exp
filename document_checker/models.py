@@ -71,6 +71,9 @@ class Paragraph(DocxParagraph, BlockBase):
         self._init_block(BlockType.PARAGRAPH)
 
     def get_text(self) -> str:
+        numbered = self.meta.get("numbered_text")
+        if numbered:
+            return numbered
         return self.text
 
     def style_name(self) -> str:
@@ -181,13 +184,13 @@ class ListBlock(BlockBase):
     def __init__(self, block_type: BlockType, title: Paragraph, items: List[Paragraph]):
         self._init_block(block_type)
         self.title = title
-        self.items = items
-        self.pages = _merge_pages([title] + items)
+        self.items = [item for item in items if item.text.strip()]
+        self.pages = _merge_pages([title] + self.items)
         self.style_data = {"heading": title.style_data}
         self.meta = {
-            "item_count": len(items),
+            "item_count": len(self.items),
             "items": [
-                {"text": item.text, "pages": list(item.pages)} for item in items
+                {"text": item.text, "pages": list(item.pages)} for item in self.items
             ],
         }
 
@@ -244,4 +247,8 @@ def _merge_pages(paragraphs: List[Paragraph]) -> List[int]:
     pages: List[int] = []
     for paragraph in paragraphs:
         pages.extend(paragraph.pages)
-    return sorted(set(pages))
+    if not pages:
+        return []
+    start = min(pages)
+    end = max(pages)
+    return list(range(start, end + 1))

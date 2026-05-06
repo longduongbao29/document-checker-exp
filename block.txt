@@ -1,50 +1,32 @@
 ===========Page 1 ================
-<paragraph>
 Department of Veterans Affairs
-<paragraph>
 <Project Name>
-<paragraph>
 User Guide
 <image>
 [image: image.jpeg]
-<paragraph>
 <Month><Year>
-<paragraph>
 Version <#.#>
-<paragraph>
 This template contains a paragraph style called Instructional Text. Text using this paragraph style is designed to assist the reader in completing the document. Text in paragraphs added after this help text is automatically set to the appropriate body text level. For best results and to maintain formatting consistency, use the provided paragraph styles. Delete all instructional text before publishing or distributing the document.
 
 ===========Page 2 ================
-<paragraph>
 Revision History
-<paragraph>
 Note: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.
-<paragraph>
-Place latest revisions at top of table.
-<paragraph>
-The Revision History pertains only to changes in the content of the document or any updates made after distribution. It does not apply to the formatting of the template.
-<paragraph>
-Remove blank rows.
-<paragraph>
-Artifact Rationale
-<paragraph>
-A User Guide is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although it can also be written by programmers, product or project managers, or other technical staff.  Most user guides contain both a written guide and the associated images. In the case of computer applications, it is usual to include screenshots of the human-machine interface(s), and hardware manuals often include clear, simplified diagrams. The language used is matched to the intended audience, with jargon kept to a minimum or explained thoroughly.  The User Guide is a mandatory, increment-level document, and should be updated to reflect the contents of the most recently deployed increment.
-
-===========Page 3 ================
 <table>
 | Date | Version | Description | Author |
 |---|---|---|---|
 |  |  |  |  |
 |  |  |  |  |
-<paragraph>
+Place latest revisions at top of table.
+The Revision History pertains only to changes in the content of the document or any updates made after distribution. It does not apply to the formatting of the template.
+Remove blank rows.
+Artifact Rationale
+A User Guide is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although it can also be written by programmers, product or project managers, or other technical staff.  Most user guides contain both a written guide and the associated images. In the case of computer applications, it is usual to include screenshots of the human-machine interface(s), and hardware manuals often include clear, simplified diagrams. The language used is matched to the intended audience, with jargon kept to a minimum or explained thoroughly.  The User Guide is a mandatory, increment-level document, and should be updated to reflect the contents of the most recently deployed increment.
+
+===========Page 3 ================
 Instructions
-<paragraph>
 This template contains a style named Instructional Text. Text using this style is only to provide guidance in completing the document – the final document should not contain Instructional Text. Text in paragraphs added after Instructional Text is automatically set to the appropriate body text style. For best results and to maintain formatting consistency:
-<paragraph>
 Use the provided paragraph styles
-<paragraph>
 Delete all Instructional Text before finalizing the document, including these instructions.
-<paragraph>
 The following project types are required to complete this artifact. Exceptions are outlined where needed throughout the document.
 <table>
 | Activity | New Capability | Feature Enhancement |
@@ -55,7 +37,6 @@ The following project types are required to complete this artifact. Exceptions a
 
 ===========Page 4 ================
 <Table of content>
-Table of Contents
 Table of Contents
 - 1.	Introduction	4
 - 1.1.	Purpose	4
@@ -80,165 +61,92 @@ Table of Contents
 - 3.6.	Caveats and Exceptions	6
 - 4.	Project-Specific Scenario	6
 - 5.	Troubleshooting	7
-<paragraph>
-Introduction
 
 ===========Page 5 ================
-<paragraph>
+1. Introduction
 It is difficult to provide a users’ guide template that fits all situations since applications vary so much in what they allow users to do.  This template is put forth for the project manager or other writer to use in tailoring to the specific characteristics of the software and the project.
-<paragraph>
-Purpose
-<paragraph>
+1.1. Purpose
 Describe the purpose of the guide, which is typically to familiarize users with the important features and navigational elements of the tool.
-<paragraph>
-Overview
-<paragraph>
+1.2. Overview
 Explain in general terms the system and the purpose for which it is intended.  The description may include some of the following elements:
-<paragraph>
 List and describe the major functions performed by the system
-<paragraph>
 Describe the architecture of the system in non-technical terms, (e.g., client/server, Web-based, etc.)
-<paragraph>
 User access mode, (e.g., graphical user interface)
-<paragraph>
 Responsible organization
-<paragraph>
 System name or title
-<paragraph>
 System code
-<paragraph>
 System category:
-<paragraph>
 Major application:  performs clearly defined functions for which there is a readily identifiable security consideration and need
-<paragraph>
 support system:  provides general computing or network support for a variety of users and applications
-<paragraph>
 Operational status:
-<paragraph>
 Operational
-<paragraph>
 Under development
-<paragraph>
 Undergoing a major modification
-<paragraph>
 General description
-<paragraph>
 System environment or special conditions
-<paragraph>
-Project References
-<paragraph>
+1.3. Project References
 Provide a list of the references that were used in preparation of this document in order of importance to the end user.
-<paragraph>
-Information
-<paragraph>
+1.3.1. Information
 Provide a list of the points of organizational contact (POCs) that may be needed by the document user for informational and troubleshooting purposes.  Include type of contact, contact name, department, telephone number, and e-mail address (if applicable).  Points of contact may include, but are not limited to: help desk POC, development/maintenance POC, and operations POC.
 
 ===========Page 6 ================
-<paragraph>
-Coordination
-<paragraph>
+1.3.2. Coordination
 Provide a list of organizations that require coordination between the project and its specific support function (e.g., installation coordination, security, etc.).  Include a schedule for coordination activities.
-<paragraph>
-Help Desk
-<paragraph>
+1.3.3. Help Desk
 Provide help desk information including responsible personnel phone numbers for emergency assistance.
-<paragraph>
-Organization of the Manual
-<paragraph>
+1.4. Organization of the Manual
 Provide a list of the major sections of the User’s Manual (1.0, 2.0, 3.0, etc.) and a brief description of what is contained in each section.
-<paragraph>
-Acronyms and Abbreviations
-<paragraph>
+1.5. Acronyms and Abbreviations
 Provide a list of the acronyms and abbreviations used in this document and the meaning of each.
-<paragraph>
-System Summary
-<paragraph>
+2. System Summary
 This section provides a general overview of the system written in non-technical terminology.  The summary should outline the uses of the system in supporting the activities of the user and staff.
-<paragraph>
-System Configuration
-<paragraph>
+2.1. System Configuration
 Briefly describe and depict graphically the equipment, communications, and networks used by the system.  Include the type of computer input and output devices.
-<paragraph>
-Data Flows
-<paragraph>
+2.2. Data Flows
 Briefly describe or depict graphically, the overall flow of data in the system.  Include a user-oriented description of the method used to store and maintain data.
-<paragraph>
-User Access Levels
-<paragraph>
+2.3. User Access Levels
 Describe the different users and/or user groups and the restrictions placed on each for system accessibility or use.
-<paragraph>
-Contingencies and Alternate Modes of Operation
-<paragraph>
+2.4. Contingencies and Alternate Modes of Operation
 On a high level, explain the continuity of operations in the event of emergency, disaster, or accident.  Explain what the effect of degraded performance will have on the user.
-<paragraph>
-Getting Started
-<paragraph>
+3. Getting Started
 This section provides a general walkthrough of the system from initiation through exit.  The logical arrangement of the information shall enable the functional personnel to understand the sequence and flow of the system.  Use screen prints to depict examples of text under each heading.
-<paragraph>
-Logging On
+3.1. Logging On
 
 ===========Page 7 ================
-<paragraph>
 Describe the procedures necessary to access the system, including how to get user identifier identification (ID) and log on.  If applicable, identify job request forms or control statements and the input, frequency, reason, origin, and medium for each type of output.
-<paragraph>
-System Menu
-<paragraph>
+3.2. System Menu
 This section describes in general terms the system menu first encountered by the user, as well as the navigation paths to functions noted on the screen.  Each system function should be under a separate section header, 3.2.1 - 3.2.x.
-<paragraph>
-Changing User ID and Password
-<paragraph>
+3.3. Changing User ID and Password
 Describe how the user changes a user ID.  Describe the actions a user must take to change a password.
-<paragraph>
-Exit System
-<paragraph>
+3.4. Exit System
 Describe the actions necessary to properly exit the system
-<paragraph>
-Special Instructions for Error Correction
-<paragraph>
+3.5. Special Instructions for Error Correction
 Describe all recovery and error correction procedures, including error conditions that may be generated and corrective actions that may need to be taken.
-<paragraph>
-Caveats and Exceptions
-<paragraph>
+3.6. Caveats and Exceptions
 If there are special actions the user must take to insure that data is properly saved or that some other function executes properly, describe those actions here.  Include screen captures and descriptive narratives, if applicable.
-<paragraph>
-Project-Specific Scenario
-<paragraph>
+4. Project-Specific Scenario
 Prepare a scenario that applies the features of the tool to the specific environment and characteristics of the project. Prepare a detailed series of instructions (in non-technical terms) describing the procedures the user will need to follow to use the system.  Following are examples of the type of information that might be included in the scenario:
-<paragraph>
 Detailed procedures to initiate system operation, including identification of job request forms or control statements and the input’s frequency, reason, origin, and medium for each type of output
-<paragraph>
 Illustrations of input formats
-<paragraph>
 Descriptions of input preparation rules
-<paragraph>
 Descriptions of output procedures identifying output formats and specifying the output’s purpose, frequency, options, media, and location
-<paragraph>
 Identification of all codes and abbreviations used in the system’s output
-<paragraph>
 Descriptions of the query and retrieval capabilities of the system.  Use screen prints to depict examples.
-<paragraph>
 Depict and discuss all standard reports that can be generated by the system or internal to the user.  Use screen prints as needed to depict examples of text under each heading.
 
 ===========Page 8 ================
-<paragraph>
-Troubleshooting
-<paragraph>
+5. Troubleshooting
 Anticipate any problems, issues, or items that a user may need assistance with and provide guidance to the extent possible.
 
 ===========Page 9 ================
-<paragraph>
 Template Revision History
 <table>
 | Date | Version | Description | Author |
 |---|---|---|---|
 | April 2011 | 1.1 | Formatted to current ProPath documentation standards and edited to conform with latest Alternative Text (Section 508) guidelines | Process Management |
 | June 2009 | 1.0 | Initial Version | PMAS Business Office |
-<paragraph>
 Place latest revisions at top of table.
-<paragraph>
 The Template Revision History pertains only to the format of the template. It does not apply to the content of the document or any changes or updates to the content of the document after distribution.
-<paragraph>
 The Template Revision History can be removed at the discretion of the author of the document.
-<paragraph>
 Remove blank rows.
 

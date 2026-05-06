@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 
 from document_checker import DocxExtractor
 
@@ -20,10 +21,29 @@ def main() -> None:
         default="test.txt",
         help="Write trace output to a file (default: test.txt)",
     )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help="Print blocks as JSON to stdout",
+    )
+    parser.add_argument(
+        "--json-out",
+        help="Write blocks as JSON to a file",
+    )
     args = parser.parse_args()
 
     extractor = DocxExtractor(args.docx_path)
     blocks = extractor.extract(map_pages=not args.no_page_map)
+    if args.json_out:
+        payload = [block.to_dict() for block in blocks]
+        with open(args.json_out, "w", encoding="utf-8") as handle:
+            json.dump(payload, handle, indent=2, ensure_ascii=True)
+        print(f"Wrote {len(payload)} blocks to {args.json_out}")
+        return
+    if args.json:
+        payload = [block.to_dict() for block in blocks]
+        print(json.dumps(payload, indent=2, ensure_ascii=True))
+        return
     write_blocks_by_page(blocks, args.out)
 
 
@@ -60,12 +80,19 @@ def _format_block(block) -> str:
     if block.type.value == "paragraph" and not block.get_text().strip():
         return ""
 
-    label = _display_block_label(block)
-    lines = [f"<{label}>"]
+    lines = []
+    if block.type.value != "paragraph":
+        label = _display_block_label(block)
+        lines.append(f"<{label}>")
 
     title = getattr(block, "title", None)
     if title is not None and getattr(title, "text", "").strip():
-        lines.append(title.text.strip())
+        if block.type.value not in {
+            "list_of_content",
+            "list_of_tables",
+            "list_of_figures",
+        }:
+            lines.append(title.text.strip())
 
     if block.type.value in {
         "table",

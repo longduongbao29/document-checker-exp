@@ -31,7 +31,8 @@ class BlockOrganizer:
     ) -> List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures]:
         merged = self._merge_list_blocks(list(blocks))
         merged = self._attach_captions(merged)
-        self._assign_table_pages(merged)
+        merged = self._filter_empty_blocks(merged)
+        self._apply_heading_numbers(merged)
         self._assign_orders(merged)
         return merged
 
@@ -73,6 +74,9 @@ class BlockOrganizer:
             if not isinstance(current, Paragraph):
                 break
             if self._is_list_entry(current):
+                if not current.text.strip():
+                    last_index = idx
+                    continue
                 items.append(current)
                 last_index = idx
                 continue
@@ -179,6 +183,84 @@ class BlockOrganizer:
             block.order = order
             block.block_id = f"b{order:04d}"
 
+    def _apply_heading_numbers(
+        self,
+        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+    ) -> None:
+        toc_map: dict[str, str] = {}
+        for block in blocks:
+            if not isinstance(block, ListOfContent):
+                continue
+            for item in block.items:
+                parsed = self._parse_toc_item(item.text)
+                if parsed is None:
+                    continue
+                number, title = parsed
+                toc_map[self._normalize_heading_text(title)] = number
+
+        if not toc_map:
+            return
+
+        for block in blocks:
+            if not isinstance(block, Paragraph):
+                continue
+            if not self._is_heading_paragraph(block):
+                continue
+            text = block.text.strip()
+            if not text or self._has_leading_number(text):
+                continue
+            key = self._normalize_heading_text(text)
+            number = toc_map.get(key)
+            if number is None:
+                continue
+            block.meta["numbered_text"] = f"{number} {text}"
+
+    def _parse_toc_item(self, text: str) -> Optional[tuple[str, str]]:
+        parts = [part.strip() for part in text.split("\t") if part.strip()]
+        if len(parts) < 2:
+            return None
+        number = parts[0]
+        title_parts = parts[1:-1] if len(parts) > 2 else [parts[1]]
+        title = " ".join(title_parts).strip()
+        if not number or not title:
+            return None
+        if number[-1].isdigit():
+            number = f"{number}."
+        return number, title
+
+    def _normalize_heading_text(self, text: str) -> str:
+        return " ".join(text.split()).casefold()
+
+    def _is_heading_paragraph(self, paragraph: Paragraph) -> bool:
+        return "heading" in paragraph.style_name().casefold()
+
+    def _has_leading_number(self, text: str) -> bool:
+        return bool(re.match(r"^\d+(?:\.\d+)*\.?\s+", text))
+
+    def _filter_empty_blocks(
+        self,
+        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+    ) -> List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures]:
+        filtered = []
+        for block in blocks:
+            if self._has_text(block):
+                filtered.append(block)
+        return filtered
+
+    def _has_text(
+        self, block: Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+    ) -> bool:
+        if isinstance(block, Table):
+            return True
+        if isinstance(block, Image):
+            return True
+        if block.get_text().strip():
+            return True
+        title = getattr(block, "title", None)
+        if title is not None and title.text.strip():
+            return True
+        return False
+
     def _assign_table_pages(
         self,
         blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
@@ -229,9 +311,7 @@ class BlockOrganizer:
 
     def _is_real_table(self, table: Table) -> bool:
         rows = table.meta.get("rows", [])
-        if len(rows) < 2:
-            return False
-        header_text = " ".join(cell.strip() for cell in rows[0]).casefold()
+        header_text = " ".join(cell.strip() for cell in rows[0]).casefold() if rows else ""
         return "callout style" not in header_text
 
     def _is_early_paragraph(self, paragraph: Paragraph) -> bool:

@@ -1,0 +1,3607 @@
+[
+  {
+    "id": "b0000",
+    "type": "paragraph",
+    "order": 0,
+    "pages": [
+      1
+    ],
+    "text": "Department of Veterans Affairs",
+    "style": {
+      "paragraph": {
+        "style_name": "Title",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Department of Veterans Affairs",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0001",
+    "type": "paragraph",
+    "order": 1,
+    "pages": [
+      1
+    ],
+    "text": "<Project Name>",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text Main Title",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "<",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "Project",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " Name",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": ">",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 4
+    }
+  },
+  {
+    "id": "b0002",
+    "type": "paragraph",
+    "order": 2,
+    "pages": [
+      1
+    ],
+    "text": "User Guide",
+    "style": {
+      "paragraph": {
+        "style_name": "Title 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "User Guide",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0003",
+    "type": "image",
+    "order": 3,
+    "pages": [
+      1
+    ],
+    "text": "",
+    "style": {
+      "paragraph": {
+        "style_name": "Cover Title Instructions",
+        "alignment": null,
+        "is_list": false
+      }
+    },
+    "meta": {
+      "image_name": "image.jpeg",
+      "relationship_id": "rId12"
+    }
+  },
+  {
+    "id": "b0004",
+    "type": "paragraph",
+    "order": 4,
+    "pages": [
+      1
+    ],
+    "text": "<Month><Year>",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text Title 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "<M",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "onth",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "><",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "Y",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "ear>",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 5
+    }
+  },
+  {
+    "id": "b0005",
+    "type": "paragraph",
+    "order": 5,
+    "pages": [
+      1
+    ],
+    "text": "Version <#.#>",
+    "style": {
+      "paragraph": {
+        "style_name": "Title 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Version ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "<#.#>",
+          "style_name": "Default Paragraph Font",
+          "bold": false,
+          "italic": true,
+          "underline": null,
+          "font_name": "Times New Roman",
+          "font_size": 11.0,
+          "color": "0000FF"
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2
+    }
+  },
+  {
+    "id": "b0006",
+    "type": "paragraph",
+    "order": 6,
+    "pages": [
+      1
+    ],
+    "text": "This template contains a paragraph style called Instructional Text. Text using this paragraph style is designed to assist the reader in completing the document. Text in paragraphs added after this help text is automatically set to the appropriate body text level. For best results and to maintain formatting consistency, use the provided paragraph styles. Delete all instructional text before publishing or distributing the document.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "This template contains a paragraph style called Instructional Text. Text using this paragraph style is designed to assist the reader in completing the document. Text in paragraphs added after this help text is automatically set to the appropriate body text level. For best results and to maintain formatting consistency, use the provided paragraph styles. Delete all instructional text before publishing or distributing the document.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": 11.0,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0007",
+    "type": "paragraph",
+    "order": 7,
+    "pages": [
+      2
+    ],
+    "text": "Revision History",
+    "style": {
+      "paragraph": {
+        "style_name": "Title 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Revision History",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0008",
+    "type": "paragraph",
+    "order": 8,
+    "pages": [
+      2
+    ],
+    "text": "Note: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.",
+    "style": {
+      "paragraph": {
+        "style_name": "Body Text",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Note: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0009",
+    "type": "table",
+    "order": 9,
+    "pages": [
+      2
+    ],
+    "text": "Date Version Description Author",
+    "style": {
+      "table": {
+        "style_name": "Normal Table"
+      }
+    },
+    "meta": {
+      "rows": [
+        [
+          "Date",
+          "Version",
+          "Description",
+          "Author"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "row_count": 3,
+      "column_count": 4
+    }
+  },
+  {
+    "id": "b0010",
+    "type": "paragraph",
+    "order": 10,
+    "pages": [
+      2
+    ],
+    "text": "Place latest revisions at top of table.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Place latest revisions at top of table.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0011",
+    "type": "paragraph",
+    "order": 11,
+    "pages": [
+      2
+    ],
+    "text": "The Revision History pertains only to changes in the content of the document or any updates made after distribution. It does not apply to the formatting of the template.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "The Revision History pertains only to ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "changes in the content of the document or any updates made after distribution",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " It does not apply to",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "the formatting of the ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "template",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 8
+    }
+  },
+  {
+    "id": "b0012",
+    "type": "paragraph",
+    "order": 12,
+    "pages": [
+      2
+    ],
+    "text": "Remove blank rows.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Remove blank rows.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0013",
+    "type": "paragraph",
+    "order": 13,
+    "pages": [
+      2
+    ],
+    "text": "Artifact Rationale",
+    "style": {
+      "paragraph": {
+        "style_name": "Title",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Artifact Rationale",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0014",
+    "type": "paragraph",
+    "order": 14,
+    "pages": [
+      2
+    ],
+    "text": "A User Guide is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although it can also be written by programmers, product or project managers, or other technical staff.  Most user guides contain both a written guide and the associated images. In the case of computer applications, it is usual to include screenshots of the human-machine interface(s), and hardware manuals often include clear, simplified diagrams. The language used is matched to the intended audience, with jargon kept to a minimum or explained thoroughly.  The User Guide is a mandatory, increment-level document, and should be updated to reflect the contents of the most recently deployed increment.",
+    "style": {
+      "paragraph": {
+        "style_name": "Body Text",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "A User Guide is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although it can also be written by programmers, product or project managers, or other technical staff.  Most user guides contain both a written guide and the associated images. In the case of computer applications, it is usual to include screenshots of the human-machine interface(s), and hardware manuals often include clear, simplified diagrams. The language used is matched to the intended audience, with jargon kept to a minimum or explained thoroughly.  The User Guide is a mandatory, increment-level document, and should be updated to reflect the contents of the most recently deployed increment.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0015",
+    "type": "paragraph",
+    "order": 15,
+    "pages": [
+      3
+    ],
+    "text": "Instructions",
+    "style": {
+      "paragraph": {
+        "style_name": "Title",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Instructions",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0016",
+    "type": "paragraph",
+    "order": 16,
+    "pages": [
+      3
+    ],
+    "text": "This template contains a style named Instructional Text. Text using this style is only to provide guidance in completing the document \u2013 the final document should not contain Instructional Text. Text in paragraphs added after Instructional Text is automatically set to the appropriate body text style. For best results and to maintain formatting consistency: ",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "This template contains a style named Instructional Text. Text using this style is only to provide guidance in completing the document \u2013 the final document should not contain Instructional Text. Text in paragraphs added after Instructional Text is automatically set to the appropriate body text style. For best results and to maintain formatting consistency: ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0017",
+    "type": "paragraph",
+    "order": 17,
+    "pages": [
+      3
+    ],
+    "text": "Use the provided paragraph styles",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Use the provided paragraph styles",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0018",
+    "type": "paragraph",
+    "order": 18,
+    "pages": [
+      3
+    ],
+    "text": "Delete all Instructional Text before finalizing the document, including these instructions.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Delete all Instructional Text before finalizing the document, including these instructions.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0019",
+    "type": "paragraph",
+    "order": 19,
+    "pages": [
+      3
+    ],
+    "text": "The following project types are required to complete this artifact. Exceptions are outlined where needed throughout the document.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "The following project types are required to complete this artifact. Exceptions are outlined where ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "needed throughout the document.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2
+    }
+  },
+  {
+    "id": "b0020",
+    "type": "table",
+    "order": 20,
+    "pages": [
+      3
+    ],
+    "text": "Activity New Capability Feature Enhancement Field Deployment 1a 1b \u2013 may need to just update an existing one rather than create one Cloud/Web Deployment 2a 2b \u2013 may need to just update an existing one rather than create one Mobile Application 3a 3b \u2013 may need to just update an existing one rather than create one",
+    "style": {
+      "table": {
+        "style_name": "Normal Table"
+      }
+    },
+    "meta": {
+      "rows": [
+        [
+          "Activity",
+          "New Capability",
+          "Feature Enhancement"
+        ],
+        [
+          "Field Deployment",
+          "1a",
+          "1b \u2013 may need to just update an existing one rather than create one"
+        ],
+        [
+          "Cloud/Web Deployment",
+          "2a",
+          "2b \u2013 may need to just update an existing one rather than create one"
+        ],
+        [
+          "Mobile Application",
+          "3a",
+          "3b \u2013 may need to just update an existing one rather than create one"
+        ]
+      ],
+      "row_count": 4,
+      "column_count": 3
+    }
+  },
+  {
+    "id": "b0021",
+    "type": "list_of_content",
+    "order": 21,
+    "pages": [
+      4
+    ],
+    "text": "Table of Contents",
+    "style": {
+      "heading": {
+        "paragraph": {
+          "style_name": "Body Text",
+          "alignment": null,
+          "is_list": false
+        },
+        "runs": [
+          {
+            "text": "",
+            "style_name": "Default Paragraph Font",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font_name": null,
+            "font_size": null,
+            "color": null
+          },
+          {
+            "text": "Table of Contents",
+            "style_name": "Default Paragraph Font",
+            "bold": null,
+            "italic": null,
+            "underline": null,
+            "font_name": null,
+            "font_size": null,
+            "color": null
+          }
+        ]
+      }
+    },
+    "meta": {
+      "item_count": 23,
+      "items": [
+        {
+          "text": "1.\tIntroduction\t4",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.1.\tPurpose\t4",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.2.\tOverview\t4",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.3.\tProject References\t4",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.3.1.\tInformation\t4",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.3.2.\tCoordination\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.3.3.\tHelp Desk\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.4.\tOrganization of the Manual\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "1.5.\tAcronyms and Abbreviations\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "2.\tSystem Summary\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "2.1.\tSystem Configuration\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "2.2.\tData Flows\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "2.3.\tUser Access Levels\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "2.4.\tContingencies and Alternate Modes of Operation\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.\tGetting Started\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.1.\tLogging On\t5",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.2.\tSystem Menu\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.3.\tChanging User ID and Password\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.4.\tExit System\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.5.\tSpecial Instructions for Error Correction\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "3.6.\tCaveats and Exceptions\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "4.\tProject-Specific Scenario\t6",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "text": "5.\tTroubleshooting\t7",
+          "pages": [
+            4
+          ]
+        }
+      ]
+    },
+    "title": "Table of Contents"
+  },
+  {
+    "id": "b0022",
+    "type": "paragraph",
+    "order": 22,
+    "pages": [
+      5
+    ],
+    "text": "1. Introduction",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Introduction",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1. Introduction"
+    }
+  },
+  {
+    "id": "b0023",
+    "type": "paragraph",
+    "order": 23,
+    "pages": [
+      5
+    ],
+    "text": "It is difficult to provide a users\u2019 guide template that fits all situations since applications vary so much in what they allow users to do.  This template is put forth for the project manager or other writer to use in tailoring to the specific characteristics of the software and the project. ",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "It is difficult to provide a users\u2019 guide template that fits all situations since applications vary so much in what they allow users to do.  This template is put forth for the project manager or other writer to use in tailoring to the specific characteristics of the software and the project.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2
+    }
+  },
+  {
+    "id": "b0024",
+    "type": "paragraph",
+    "order": 24,
+    "pages": [
+      5
+    ],
+    "text": "1.1. Purpose",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "\t",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "Purpose",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2,
+      "numbered_text": "1.1. Purpose"
+    }
+  },
+  {
+    "id": "b0025",
+    "type": "paragraph",
+    "order": 25,
+    "pages": [
+      5
+    ],
+    "text": "Describe the purpose of the guide, which is typically to familiarize users with the important features and navigational elements of the tool.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe the purpose of the guide, which is typically to familiarize users with the important features and navigational elements of the tool.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0026",
+    "type": "paragraph",
+    "order": 26,
+    "pages": [
+      5
+    ],
+    "text": "1.2. Overview",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Overview",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2,
+      "numbered_text": "1.2. Overview"
+    }
+  },
+  {
+    "id": "b0027",
+    "type": "paragraph",
+    "order": 27,
+    "pages": [
+      5
+    ],
+    "text": "Explain in general terms the system and the purpose for which it is intended.  The description may include some of the following elements: ",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Explain in general terms the system and the purpose for which it is intended.  The description may include some of the following elements: ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0028",
+    "type": "paragraph",
+    "order": 28,
+    "pages": [
+      5
+    ],
+    "text": "List and describe the major functions performed by the system",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "List and describe the major functions performed by the system",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0029",
+    "type": "paragraph",
+    "order": 29,
+    "pages": [
+      5
+    ],
+    "text": "Describe the architecture of the system in non-technical terms, (e.g., client/server, Web-based, etc.)",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe the architecture of the system in non-technical terms, (e.g., client/server, Web-based, etc.)",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0030",
+    "type": "paragraph",
+    "order": 30,
+    "pages": [
+      5
+    ],
+    "text": "User access mode, (e.g., graphical user interface)",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "User access mode, (e.g., graphical user interface)",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0031",
+    "type": "paragraph",
+    "order": 31,
+    "pages": [
+      5
+    ],
+    "text": "Responsible organization",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Responsible organization",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0032",
+    "type": "paragraph",
+    "order": 32,
+    "pages": [
+      5
+    ],
+    "text": "System name or title",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System name or title",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0033",
+    "type": "paragraph",
+    "order": 33,
+    "pages": [
+      5
+    ],
+    "text": "System code",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System code",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0034",
+    "type": "paragraph",
+    "order": 34,
+    "pages": [
+      5
+    ],
+    "text": "System category:",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System category:",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0035",
+    "type": "paragraph",
+    "order": 35,
+    "pages": [
+      5
+    ],
+    "text": "Major application:  performs clearly defined functions for which there is a readily identifiable security consideration and need",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": true
+      },
+      "runs": [
+        {
+          "text": "Major application:  performs clearly defined functions for which there is a readily identifiable security consideration and need",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0036",
+    "type": "paragraph",
+    "order": 36,
+    "pages": [
+      5
+    ],
+    "text": "support system:  provides general computing or network support for a variety of users and applications",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": true
+      },
+      "runs": [
+        {
+          "text": "support system:  provides general computing or network support for a variety of users and applications",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0037",
+    "type": "paragraph",
+    "order": 37,
+    "pages": [
+      5
+    ],
+    "text": "Operational status:",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Operational status:",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0038",
+    "type": "paragraph",
+    "order": 38,
+    "pages": [
+      5
+    ],
+    "text": "Operational",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": true
+      },
+      "runs": [
+        {
+          "text": "Operational",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0039",
+    "type": "paragraph",
+    "order": 39,
+    "pages": [
+      5
+    ],
+    "text": "Under development",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": true
+      },
+      "runs": [
+        {
+          "text": "Under development",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0040",
+    "type": "paragraph",
+    "order": 40,
+    "pages": [
+      5
+    ],
+    "text": "Undergoing a major modification",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": true
+      },
+      "runs": [
+        {
+          "text": "Undergoing a major modification",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0041",
+    "type": "paragraph",
+    "order": 41,
+    "pages": [
+      5
+    ],
+    "text": "General description",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "General description",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0042",
+    "type": "paragraph",
+    "order": 42,
+    "pages": [
+      5
+    ],
+    "text": "System environment or special conditions",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System environment or special conditions",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0043",
+    "type": "paragraph",
+    "order": 43,
+    "pages": [
+      5
+    ],
+    "text": "1.3. Project References",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Project References",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1.3. Project References"
+    }
+  },
+  {
+    "id": "b0044",
+    "type": "paragraph",
+    "order": 44,
+    "pages": [
+      5
+    ],
+    "text": "Provide a list of the references that were used in preparation of this document in order of importance to the end user.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide a list of the references that were used in preparation of this document in order of importance to the end user.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0045",
+    "type": "paragraph",
+    "order": 45,
+    "pages": [
+      5
+    ],
+    "text": "1.3.1. Information",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 3",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Information",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1.3.1. Information"
+    }
+  },
+  {
+    "id": "b0046",
+    "type": "paragraph",
+    "order": 46,
+    "pages": [
+      5
+    ],
+    "text": "Provide a list of the points of organizational contact (POCs) that may be needed by the document user for informational and troubleshooting purposes.  Include type of contact, contact name, department, telephone number, and e-mail address (if applicable).  Points of contact may include, but are not limited to: help desk POC, development/maintenance POC, and operations POC.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide a list of the points of organizational contact (POCs) that may be needed by the document user for informational and troubleshooting purposes.  Include type of contact, contact name, department, telephone number, and e-mail address (if applicable).  Points of contact may include, but are not limited to: help desk POC, development/maintenance POC, and operations POC.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0047",
+    "type": "paragraph",
+    "order": 47,
+    "pages": [
+      6
+    ],
+    "text": "1.3.2. Coordination",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 3",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Coordination",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1.3.2. Coordination"
+    }
+  },
+  {
+    "id": "b0048",
+    "type": "paragraph",
+    "order": 48,
+    "pages": [
+      6
+    ],
+    "text": "Provide a list of organizations that require coordination between the project and its specific support function (e.g., installation coordination, security, etc.).  Include a schedule for coordination activities.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide a list of organizations that require coordination between the project and its specific support function (e.g., installation coordination, security, etc.).  Include a schedule for coordination activities.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0049",
+    "type": "paragraph",
+    "order": 49,
+    "pages": [
+      6
+    ],
+    "text": "1.3.3. Help Desk",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 3",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Help Desk",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1.3.3. Help Desk"
+    }
+  },
+  {
+    "id": "b0050",
+    "type": "paragraph",
+    "order": 50,
+    "pages": [
+      6
+    ],
+    "text": "Provide help desk information including responsible personnel phone numbers for emergency assistance.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide help desk information including responsible personnel phone numbers for emergency assistance.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0051",
+    "type": "paragraph",
+    "order": 51,
+    "pages": [
+      6
+    ],
+    "text": "1.4. Organization of the Manual",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "\t",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "Organization of the Manual",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2,
+      "numbered_text": "1.4. Organization of the Manual"
+    }
+  },
+  {
+    "id": "b0052",
+    "type": "paragraph",
+    "order": 52,
+    "pages": [
+      6
+    ],
+    "text": "Provide a list of the major sections of the User\u2019s Manual (1.0, 2.0, 3.0, etc.) and a brief description of what is contained in each section.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide a list of the major sections of the User\u2019s Manual (1.0, 2.0, 3.0, etc.) and a brief description of what is contained in each section.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0053",
+    "type": "paragraph",
+    "order": 53,
+    "pages": [
+      6
+    ],
+    "text": "1.5. Acronyms and Abbreviations",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Acronyms and Abbreviations",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "1.5. Acronyms and Abbreviations"
+    }
+  },
+  {
+    "id": "b0054",
+    "type": "paragraph",
+    "order": 54,
+    "pages": [
+      6
+    ],
+    "text": "Provide a list of the acronyms and abbreviations used in this document and the meaning of each.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Provide a list of the acronyms and abbreviations used in this document and the meaning of each.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0055",
+    "type": "paragraph",
+    "order": 55,
+    "pages": [
+      6
+    ],
+    "text": "2. System Summary",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System Summary",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "2. System Summary"
+    }
+  },
+  {
+    "id": "b0056",
+    "type": "paragraph",
+    "order": 56,
+    "pages": [
+      6
+    ],
+    "text": "This section provides a general overview of the system written in non-technical terminology.  The summary should outline the uses of the system in supporting the activities of the user and staff.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "This section provides a general overview of the system written in non-technical terminology.  The summary should outline the uses of the system in supporting the activities of the user and staff.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0057",
+    "type": "paragraph",
+    "order": 57,
+    "pages": [
+      6
+    ],
+    "text": "2.1. System Configuration",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System Configuration",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "2.1. System Configuration"
+    }
+  },
+  {
+    "id": "b0058",
+    "type": "paragraph",
+    "order": 58,
+    "pages": [
+      6
+    ],
+    "text": "Briefly describe and depict graphically the equipment, communications, and networks used by the system.  Include the type of computer input and output devices.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Briefly describe and depict graphically the equipment, communications, and networks used by the system.  Include the type of computer input and output devices.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0059",
+    "type": "paragraph",
+    "order": 59,
+    "pages": [
+      6
+    ],
+    "text": "2.2. Data Flows",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Data Flows",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "2.2. Data Flows"
+    }
+  },
+  {
+    "id": "b0060",
+    "type": "paragraph",
+    "order": 60,
+    "pages": [
+      6
+    ],
+    "text": "Briefly describe or depict graphically, the overall flow of data in the system.  Include a user-oriented description of the method used to store and maintain data.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Briefly describe or depict graphically, the overall flow of data in the system.  Include a user-oriented description of the method used to store and maintain data.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0061",
+    "type": "paragraph",
+    "order": 61,
+    "pages": [
+      6
+    ],
+    "text": "2.3. User Access Levels",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "\t",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "User Access Levels",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2,
+      "numbered_text": "2.3. User Access Levels"
+    }
+  },
+  {
+    "id": "b0062",
+    "type": "paragraph",
+    "order": 62,
+    "pages": [
+      6
+    ],
+    "text": "Describe the different users and/or user groups and the restrictions placed on each for system accessibility or use.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe the different users and/or user groups and the restrictions placed on each for system accessibility or use.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0063",
+    "type": "paragraph",
+    "order": 63,
+    "pages": [
+      6
+    ],
+    "text": "2.4. Contingencies and Alternate Modes of Operation",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Contingencies and Alternate Modes of Operation",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "2.4. Contingencies and Alternate Modes of Operation"
+    }
+  },
+  {
+    "id": "b0064",
+    "type": "paragraph",
+    "order": 64,
+    "pages": [
+      6
+    ],
+    "text": "On a high level, explain the continuity of operations in the event of emergency, disaster, or accident.  Explain what the effect of degraded performance will have on the user.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "On a high level, explain the continuity of operations in the event of emergency, disaster, or accident.  Explain what the effect of degraded performance will have on the user.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0065",
+    "type": "paragraph",
+    "order": 65,
+    "pages": [
+      6
+    ],
+    "text": "3. Getting Started",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Getting Started",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3. Getting Started"
+    }
+  },
+  {
+    "id": "b0066",
+    "type": "paragraph",
+    "order": 66,
+    "pages": [
+      6
+    ],
+    "text": "This section provides a general walkthrough of the system from initiation through exit.  The logical arrangement of the information shall enable the functional personnel to understand the sequence and flow of the system.  Use screen prints to depict examples of text under each heading.",
+    "style": {
+      "paragraph": {
+        "style_name": "Body Text",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "This section provides a general walkthrough of the system from initiation through exit.  The",
+          "style_name": "Instructional Text 1 Char",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "logical arrangement of the information shall enable the functional personnel to understand the",
+          "style_name": "Instructional Text 1 Char",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "sequence and flow of the system.  Use screen prints to depict examples of text under each",
+          "style_name": "Instructional Text 1 Char",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "heading.",
+          "style_name": "Instructional Text 1 Char",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 7
+    }
+  },
+  {
+    "id": "b0067",
+    "type": "paragraph",
+    "order": 67,
+    "pages": [
+      6
+    ],
+    "text": "3.1. Logging On",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Logging On",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.1. Logging On"
+    }
+  },
+  {
+    "id": "b0068",
+    "type": "paragraph",
+    "order": 68,
+    "pages": [
+      7
+    ],
+    "text": "Describe the procedures necessary to access the system, including how to get user identifier identification (ID) and log on.  If applicable, identify job request forms or control statements and the input, frequency, reason, origin, and medium for each type of output.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe the procedures necessary to access the system, including how to get user identifier identification (ID",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": ") and",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " log on.  If applicable, identify job request forms or control statements and the input, frequency, reason, origin, and medium for each type of output.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 3
+    }
+  },
+  {
+    "id": "b0069",
+    "type": "paragraph",
+    "order": 69,
+    "pages": [
+      7
+    ],
+    "text": "3.2. System Menu",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "System Menu",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.2. System Menu"
+    }
+  },
+  {
+    "id": "b0070",
+    "type": "paragraph",
+    "order": 70,
+    "pages": [
+      7
+    ],
+    "text": "This section describes in general terms the system menu first encountered by the user, as well as the navigation paths to functions noted on the screen.  Each system function should be under a separate section header, 3.2.1 - 3.2.x.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "This section describes in general terms the system menu first encountered by the user, as well as the navigation paths to functions noted on the screen.  Each system function should be under a separate section header, 3.2.1 - 3.2.x.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0071",
+    "type": "paragraph",
+    "order": 71,
+    "pages": [
+      7
+    ],
+    "text": "3.3. Changing User ID and Password",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Changing User ID and Password",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.3. Changing User ID and Password"
+    }
+  },
+  {
+    "id": "b0072",
+    "type": "paragraph",
+    "order": 72,
+    "pages": [
+      7
+    ],
+    "text": "Describe how the user changes a user ID.  Describe the actions a user must take to change a password.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe how the user changes a user ID.  Describe the actions a user must take to change a password.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0073",
+    "type": "paragraph",
+    "order": 73,
+    "pages": [
+      7
+    ],
+    "text": "3.4. Exit System",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Exit System",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.4. Exit System"
+    }
+  },
+  {
+    "id": "b0074",
+    "type": "paragraph",
+    "order": 74,
+    "pages": [
+      7
+    ],
+    "text": "Describe the actions necessary to properly exit the system",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe the actions necessary to properly exit the system",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0075",
+    "type": "paragraph",
+    "order": 75,
+    "pages": [
+      7
+    ],
+    "text": "3.5. Special Instructions for Error Correction",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Special Instructions for Error Correction",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.5. Special Instructions for Error Correction"
+    }
+  },
+  {
+    "id": "b0076",
+    "type": "paragraph",
+    "order": 76,
+    "pages": [
+      7
+    ],
+    "text": "Describe all recovery and error correction procedures, including error conditions that may be generated and corrective actions that may need to be taken.",
+    "style": {
+      "paragraph": {
+        "style_name": "Body Text",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Describe all recovery and error correction procedures, including error conditions that may be generated and corrective actions that may need to be taken.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0077",
+    "type": "paragraph",
+    "order": 77,
+    "pages": [
+      7
+    ],
+    "text": "3.6. Caveats and Exceptions",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Caveats and Exceptions",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "3.6. Caveats and Exceptions"
+    }
+  },
+  {
+    "id": "b0078",
+    "type": "paragraph",
+    "order": 78,
+    "pages": [
+      7
+    ],
+    "text": "If there are special actions the user must take to insure that data is properly saved or that some other function executes properly, describe those actions here.  Include screen captures and descriptive narratives, if applicable.",
+    "style": {
+      "paragraph": {
+        "style_name": "Body Text",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "If there are special actions the user must take to insure that data is properly saved or that some other function executes properly, describe those actions here.  Include screen captures and descriptive narratives, if applicable.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0079",
+    "type": "paragraph",
+    "order": 79,
+    "pages": [
+      7
+    ],
+    "text": "4. Project-Specific Scenario",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Project-Specific Scenario",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2,
+      "numbered_text": "4. Project-Specific Scenario"
+    }
+  },
+  {
+    "id": "b0080",
+    "type": "paragraph",
+    "order": 80,
+    "pages": [
+      7
+    ],
+    "text": "Prepare a scenario that applies the features of the tool to the specific environment and characteristics of the project. Prepare a detailed series of instructions (in non-technical terms) describing the procedures the user will need to follow to use the system.  Following are examples of the type of information that might be included in the scenario:",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Prepare a scenario that applies the features of the tool to the specific environment and characteristics of the project. Prepare a detailed series of instructions (in ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "non-technical",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " terms) describing the procedures the user will need to follow to use the system.  Following are examples of the type of information that might be included in the scenario:",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 3
+    }
+  },
+  {
+    "id": "b0081",
+    "type": "paragraph",
+    "order": 81,
+    "pages": [
+      7
+    ],
+    "text": "Detailed procedures to initiate system operation, including identification of job request forms or control statements and the input\u2019s frequency, reason, origin, and medium for each type of output",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Detailed procedures to initiate system operation, including identification of job request forms or control statements and the input\u2019s frequency, reason, origin, and medium for each type of output",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0082",
+    "type": "paragraph",
+    "order": 82,
+    "pages": [
+      7
+    ],
+    "text": "Illustrations of input formats",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Illustrations of input formats",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0083",
+    "type": "paragraph",
+    "order": 83,
+    "pages": [
+      7
+    ],
+    "text": "Descriptions of input preparation rules",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Descriptions of input preparation rules",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0084",
+    "type": "paragraph",
+    "order": 84,
+    "pages": [
+      7
+    ],
+    "text": "Descriptions of output procedures identifying output formats and specifying the output\u2019s purpose, frequency, options, media, and location",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Descriptions of output procedures identifying output formats and specifying the output\u2019s purpose, frequency, options, media, and location",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0085",
+    "type": "paragraph",
+    "order": 85,
+    "pages": [
+      7
+    ],
+    "text": "Identification of all codes and abbreviations used in the system\u2019s output",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Identification of all codes and abbreviations used in the system\u2019s output",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0086",
+    "type": "paragraph",
+    "order": 86,
+    "pages": [
+      7
+    ],
+    "text": "Descriptions of the query and retrieval capabilities of the system.  Use screen prints to depict examples.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Descriptions of the query and retrieval capabilities of the system.  Use screen prints to depict examples.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0087",
+    "type": "paragraph",
+    "order": 87,
+    "pages": [
+      7
+    ],
+    "text": "Depict and discuss all standard reports that can be generated by the system or internal to the user.  Use screen prints as needed to depict examples of text under each heading.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Bullet 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Depict and discuss all standard reports that can be generated by the system or internal to the user.  Use screen prints as needed to depict examples of text under each heading.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0088",
+    "type": "paragraph",
+    "order": 88,
+    "pages": [
+      8
+    ],
+    "text": "5. Troubleshooting",
+    "style": {
+      "paragraph": {
+        "style_name": "Heading 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Troubleshooting",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1,
+      "numbered_text": "5. Troubleshooting"
+    }
+  },
+  {
+    "id": "b0089",
+    "type": "paragraph",
+    "order": 89,
+    "pages": [
+      8
+    ],
+    "text": "Anticipate any problems, issues, or items that a user may need assistance with and provide guidance to the extent possible.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Anticipate any problems, issues, or items that a user may need assistance with and provide guidance to the extent possible.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0090",
+    "type": "paragraph",
+    "order": 90,
+    "pages": [
+      9
+    ],
+    "text": "Template Revision History",
+    "style": {
+      "paragraph": {
+        "style_name": "Title 2",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Template Revision History",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0091",
+    "type": "table",
+    "order": 91,
+    "pages": [
+      9
+    ],
+    "text": "Date Version Description Author April 2011 1.1 Formatted to current ProPath documentation standards and edited to conform with latest Alternative Text (Section 508) guidelines Process Management June 2009 1.0 Initial Version PMAS Business Office",
+    "style": {
+      "table": {
+        "style_name": "Normal Table"
+      }
+    },
+    "meta": {
+      "rows": [
+        [
+          "Date",
+          "Version",
+          "Description",
+          "Author"
+        ],
+        [
+          "April 2011",
+          "1.1",
+          "Formatted to current ProPath documentation standards and edited to conform with latest Alternative Text (Section 508) guidelines",
+          "Process Management"
+        ],
+        [
+          "June 2009",
+          "1.0",
+          "Initial Version",
+          "PMAS Business Office"
+        ]
+      ],
+      "row_count": 3,
+      "column_count": 4
+    }
+  },
+  {
+    "id": "b0092",
+    "type": "paragraph",
+    "order": 92,
+    "pages": [
+      9
+    ],
+    "text": "Place latest revisions at top of table.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Place latest revisions at top of table.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  },
+  {
+    "id": "b0093",
+    "type": "paragraph",
+    "order": 93,
+    "pages": [
+      9
+    ],
+    "text": "The Template Revision History pertains only to the format of the template. It does not apply to the content of the document or any changes or updates to the content of the document after distribution.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "The Template Revision History pertains only to the format of the template. It does not apply to the content of the document ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "or any ",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": "changes or updates to the content of the document after distribution.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 3
+    }
+  },
+  {
+    "id": "b0094",
+    "type": "paragraph",
+    "order": 94,
+    "pages": [
+      9
+    ],
+    "text": "The Template Revision History can be removed at the discretion of the author of the document.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "The Template Revision History",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        },
+        {
+          "text": " can be removed at the discretion of the author of the document.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 2
+    }
+  },
+  {
+    "id": "b0095",
+    "type": "paragraph",
+    "order": 95,
+    "pages": [
+      9
+    ],
+    "text": "Remove blank rows.",
+    "style": {
+      "paragraph": {
+        "style_name": "Instructional Text 1",
+        "alignment": null,
+        "is_list": false
+      },
+      "runs": [
+        {
+          "text": "Remove blank rows.",
+          "style_name": "Default Paragraph Font",
+          "bold": null,
+          "italic": null,
+          "underline": null,
+          "font_name": null,
+          "font_size": null,
+          "color": null
+        }
+      ]
+    },
+    "meta": {
+      "has_hyperlink": false,
+      "run_count": 1
+    }
+  }
+]
