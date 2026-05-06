@@ -39,7 +39,9 @@ class BlockOrganizer:
     def _merge_list_blocks(
         self, blocks: List[Paragraph | Table | Image]
     ) -> List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures]:
-        merged: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures] = []
+        merged: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ] = []
         index = 0
         while index < len(blocks):
             block = blocks[index]
@@ -96,7 +98,9 @@ class BlockOrganizer:
 
     def _attach_captions(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
     ) -> List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures]:
         consumed: set[str] = set()
         for index, block in enumerate(blocks):
@@ -108,10 +112,16 @@ class BlockOrganizer:
                     consumed.add(caption.block_id)
                 else:
                     fallback = self._find_nearest_paragraph(blocks, index, consumed)
-                    if isinstance(block, Image) and fallback is not None and fallback.pages:
+                    if (
+                        isinstance(block, Image)
+                        and fallback is not None
+                        and fallback.pages
+                    ):
                         block.pages = list(fallback.pages)
 
-        filtered: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures] = []
+        filtered: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ] = []
         for block in blocks:
             if isinstance(block, Paragraph) and block.block_id in consumed:
                 continue
@@ -120,7 +130,9 @@ class BlockOrganizer:
 
     def _find_nearest_caption(
         self,
-        blocks: Sequence[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: Sequence[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
         index: int,
         consumed: set[str],
         block: Table | Image,
@@ -158,7 +170,9 @@ class BlockOrganizer:
 
     def _find_nearest_paragraph(
         self,
-        blocks: Sequence[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: Sequence[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
         index: int,
         consumed: set[str],
     ) -> Optional[Paragraph]:
@@ -177,7 +191,9 @@ class BlockOrganizer:
 
     def _assign_orders(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
     ) -> None:
         for order, block in enumerate(blocks):
             block.order = order
@@ -185,7 +201,9 @@ class BlockOrganizer:
 
     def _apply_heading_numbers(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
     ) -> None:
         toc_map: dict[str, str] = {}
         for block in blocks:
@@ -239,7 +257,9 @@ class BlockOrganizer:
 
     def _filter_empty_blocks(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
     ) -> List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures]:
         filtered = []
         for block in blocks:
@@ -248,7 +268,8 @@ class BlockOrganizer:
         return filtered
 
     def _has_text(
-        self, block: Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        self,
+        block: Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures,
     ) -> bool:
         if isinstance(block, Table):
             return True
@@ -263,7 +284,9 @@ class BlockOrganizer:
 
     def _assign_table_pages(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
     ) -> None:
         for index, block in enumerate(blocks):
             if not isinstance(block, Table):
@@ -296,7 +319,9 @@ class BlockOrganizer:
 
     def _find_neighbor_paragraph(
         self,
-        blocks: List[Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures],
+        blocks: List[
+            Paragraph | Table | Image | ListOfContent | ListOfTables | ListOfFigures
+        ],
         index: int,
         direction: int,
     ) -> Optional[Paragraph]:
@@ -311,7 +336,9 @@ class BlockOrganizer:
 
     def _is_real_table(self, table: Table) -> bool:
         rows = table.meta.get("rows", [])
-        header_text = " ".join(cell.strip() for cell in rows[0]).casefold() if rows else ""
+        header_text = (
+            " ".join(cell.strip() for cell in rows[0]).casefold() if rows else ""
+        )
         return "callout style" not in header_text
 
     def _is_early_paragraph(self, paragraph: Paragraph) -> bool:

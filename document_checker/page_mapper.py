@@ -86,7 +86,7 @@ class DocxMapper:
         if self.pdf_path and os.path.exists(self.pdf_path):
             return self.pdf_path
         output_dir = self.work_dir or tempfile.mkdtemp(prefix="docx_pdf_")
-        return self._convert_docx_to_pdf(output_dir)
+        return self._convert_docx_to_pdf("output_dir")
 
     def refine_table_pages(
         self,
@@ -212,9 +212,7 @@ class DocxMapper:
     ) -> Optional[List[difflib.Match]]:
         if not docx_text or not pdf_text:
             return None
-        matcher = difflib.SequenceMatcher(
-            None, docx_text, pdf_text, autojunk=False
-        )
+        matcher = difflib.SequenceMatcher(None, docx_text, pdf_text, autojunk=False)
         matches = [match for match in matcher.get_matching_blocks() if match.size]
         if not matches:
             return None
@@ -242,9 +240,7 @@ class DocxMapper:
             mapped_start, mapped_end = mapped_end, mapped_start
         return mapped_start, mapped_end
 
-    def _map_docx_index(
-        self, index: int, match_blocks: List[difflib.Match]
-    ) -> int:
+    def _map_docx_index(self, index: int, match_blocks: List[difflib.Match]) -> int:
         for match in match_blocks:
             if match.a <= index < match.a + match.size:
                 return match.b + (index - match.a)
@@ -370,15 +366,18 @@ class DocxMapper:
     def _assign_non_text_block_pages(self, blocks: Sequence) -> None:
         text_blocks = []
         for index, block in enumerate(blocks):
-            if isinstance(
-                block,
-                (
-                    Paragraph,
-                    ListOfContent,
-                    ListOfTables,
-                    ListOfFigures,
-                ),
-            ) and block.pages:
+            if (
+                isinstance(
+                    block,
+                    (
+                        Paragraph,
+                        ListOfContent,
+                        ListOfTables,
+                        ListOfFigures,
+                    ),
+                )
+                and block.pages
+            ):
                 text_blocks.append((index, block))
 
         if not text_blocks:
@@ -395,7 +394,9 @@ class DocxMapper:
     def _nearest_text_block(
         self,
         index: int,
-        text_blocks: List[tuple[int, Paragraph | ListOfContent | ListOfTables | ListOfFigures]],
+        text_blocks: List[
+            tuple[int, Paragraph | ListOfContent | ListOfTables | ListOfFigures]
+        ],
         block: Table | Image,
     ) -> Optional[Paragraph | ListOfContent | ListOfTables | ListOfFigures]:
         best_block = None

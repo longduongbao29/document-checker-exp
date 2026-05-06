@@ -9,7 +9,7 @@ from .models import (
     Paragraph,
     Table,
 )
-from .pdf_mapper import DocxMapper
+from .page_mapper import DocxMapper
 
 __all__ = [
     "BlockType",

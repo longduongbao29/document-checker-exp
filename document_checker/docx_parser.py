@@ -57,6 +57,7 @@ class DocxParser:
                 blocks.append(block)
                 order += 1
         return blocks
+
     def _assign_identity(self, block: Paragraph | Table | Image, order: int) -> None:
         block.order = order
         block.block_id = f"b{order:04d}"

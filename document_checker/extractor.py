@@ -5,7 +5,7 @@ from typing import List, Optional
 from .docx_parser import DocxParser
 from .models import Image, ListOfContent, ListOfFigures, ListOfTables, Paragraph, Table
 from .organizer import BlockOrganizer
-from .pdf_mapper import DocxMapper
+from .page_mapper import DocxMapper
 
 
 class DocxExtractor:

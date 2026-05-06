@@ -1,152 +1,265 @@
 ===========Page 1 ================
-Department of Veterans Affairs
-<Project Name>
-User Guide
 <image>
-[image: image.jpeg]
-<Month><Year>
-Version <#.#>
-This template contains a paragraph style called Instructional Text. Text using this paragraph style is designed to assist the reader in completing the document. Text in paragraphs added after this help text is automatically set to the appropriate body text level. For best results and to maintain formatting consistency, use the provided paragraph styles. Delete all instructional text before publishing or distributing the document.
-
-===========Page 2 ================
-Revision History
-Note: The revision history cycle begins once changes or enhancements are requested after the document has been baselined.
-<table>
-| Date | Version | Description | Author |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-Place latest revisions at top of table.
-The Revision History pertains only to changes in the content of the document or any updates made after distribution. It does not apply to the formatting of the template.
-Remove blank rows.
-Artifact Rationale
-A User Guide is a technical communication document intended to give assistance to people using a particular system. It is usually written by a technical writer, although it can also be written by programmers, product or project managers, or other technical staff.  Most user guides contain both a written guide and the associated images. In the case of computer applications, it is usual to include screenshots of the human-machine interface(s), and hardware manuals often include clear, simplified diagrams. The language used is matched to the intended audience, with jargon kept to a minimum or explained thoroughly.  The User Guide is a mandatory, increment-level document, and should be updated to reflect the contents of the most recently deployed increment.
+[image: image.jpg] (unrecognized)
+[Title Style, Initial Caps]
+[Subtitle Style, Initial Caps]
+Authors:
+[Name, Name, and Name; Cover Text Style]
+Prepared for [Sponsor]
+[Month and Year]
 
 ===========Page 3 ================
-Instructions
-This template contains a style named Instructional Text. Text using this style is only to provide guidance in completing the document – the final document should not contain Instructional Text. Text in paragraphs added after Instructional Text is automatically set to the appropriate body text style. For best results and to maintain formatting consistency:
-Use the provided paragraph styles
-Delete all Instructional Text before finalizing the document, including these instructions.
-The following project types are required to complete this artifact. Exceptions are outlined where needed throughout the document.
-<table>
-| Activity | New Capability | Feature Enhancement |
-|---|---|---|
-| Field Deployment | 1a | 1b – may need to just update an existing one rather than create one |
-| Cloud/Web Deployment | 2a | 2b – may need to just update an existing one rather than create one |
-| Mobile Application | 3a | 3b – may need to just update an existing one rather than create one |
+<Table of content>
+Table of Contents
+- List of Figures	iv
+- List of Tables	iv
+- Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]	1
+- Placing and Calling Template Files	2
+- Entering Information in This Template	2
+- Using Styles	2
+- Examples of Styles	4
+- [Heading 2 Style, Initial Caps]	4
+- [Heading 3 Style, Initial Caps]	4
+- Using Section and Page Breaks	5
+- Placing Endnotes	5
+- Adding Appendix Sections after Endnotes	5
+- Checking Spelling	6
+- Generating the Table of Contents and Other Lists	6
+- Sponsor Guidelines	6
+- Accessibility	7
+- Chapter 2. Heading Styles	9
+- Second-Level Headings	10
+- Third-Level Heading	10
+- Chapter 3. Figures and Tables	11
+- Placing Graphics and Tables	12
+- Landscape Placement	12
+- Automatic Figure/Table Numbering	12
+- Automatic Cross-Reference to Figures/Tables	13
+- Line Breaks Inserted by Word	13
+- Sample Captioning	13
+- Figure and Table Formatting	14
+- References	15
 
 ===========Page 4 ================
 <Table of content>
 Table of Contents
-- 1.	Introduction	4
-- 1.1.	Purpose	4
-- 1.2.	Overview	4
-- 1.3.	Project References	4
-- 1.3.1.	Information	4
-- 1.3.2.	Coordination	5
-- 1.3.3.	Help Desk	5
-- 1.4.	Organization of the Manual	5
-- 1.5.	Acronyms and Abbreviations	5
-- 2.	System Summary	5
-- 2.1.	System Configuration	5
-- 2.2.	Data Flows	5
-- 2.3.	User Access Levels	5
-- 2.4.	Contingencies and Alternate Modes of Operation	5
-- 3.	Getting Started	5
-- 3.1.	Logging On	5
-- 3.2.	System Menu	6
-- 3.3.	Changing User ID and Password	6
-- 3.4.	Exit System	6
-- 3.5.	Special Instructions for Error Correction	6
-- 3.6.	Caveats and Exceptions	6
-- 4.	Project-Specific Scenario	6
-- 5.	Troubleshooting	7
+- List of Figures	iv
+- List of Tables	iv
+- Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]	1
+- Placing and Calling Template Files	2
+- Entering Information in This Template	2
+- Using Styles	2
+- Examples of Styles	4
+- [Heading 2 Style, Initial Caps]	4
+- [Heading 3 Style, Initial Caps]	4
+- Using Section and Page Breaks	5
+- Placing Endnotes	5
+- Adding Appendix Sections after Endnotes	5
+- Checking Spelling	6
+- Generating the Table of Contents and Other Lists	6
+- Sponsor Guidelines	6
+- Accessibility	7
+- Chapter 2. Heading Styles	9
+- Second-Level Headings	10
+- Third-Level Heading	10
+- Chapter 3. Figures and Tables	11
+- Placing Graphics and Tables	12
+- Landscape Placement	12
+- Automatic Figure/Table Numbering	12
+- Automatic Cross-Reference to Figures/Tables	13
+- Line Breaks Inserted by Word	13
+- Sample Captioning	13
+- Figure and Table Formatting	14
+- References	15
 
 ===========Page 5 ================
-1. Introduction
-It is difficult to provide a users’ guide template that fits all situations since applications vary so much in what they allow users to do.  This template is put forth for the project manager or other writer to use in tailoring to the specific characteristics of the software and the project.
-1.1. Purpose
-Describe the purpose of the guide, which is typically to familiarize users with the important features and navigational elements of the tool.
-1.2. Overview
-Explain in general terms the system and the purpose for which it is intended.  The description may include some of the following elements:
-List and describe the major functions performed by the system
-Describe the architecture of the system in non-technical terms, (e.g., client/server, Web-based, etc.)
-User access mode, (e.g., graphical user interface)
-Responsible organization
-System name or title
-System code
-System category:
-Major application:  performs clearly defined functions for which there is a readily identifiable security consideration and need
-support system:  provides general computing or network support for a variety of users and applications
-Operational status:
-Operational
-Under development
-Undergoing a major modification
-General description
-System environment or special conditions
-1.3. Project References
-Provide a list of the references that were used in preparation of this document in order of importance to the end user.
-1.3.1. Information
-Provide a list of the points of organizational contact (POCs) that may be needed by the document user for informational and troubleshooting purposes.  Include type of contact, contact name, department, telephone number, and e-mail address (if applicable).  Points of contact may include, but are not limited to: help desk POC, development/maintenance POC, and operations POC.
+<List of figures>
+List of Figures
+- Figure 1. [Caption Style Using Initial Caps and Ending with a Period.]	4
+- Figure 2. Sample Figure Caption.	13
+<List of tables>
+List of Tables
+- Table 1. [Table Title Style Using Initial Caps and End with a Period.]	4
+- Table 2. Sample Table Caption.	14
 
 ===========Page 6 ================
-1.3.2. Coordination
-Provide a list of organizations that require coordination between the project and its specific support function (e.g., installation coordination, security, etc.).  Include a schedule for coordination activities.
-1.3.3. Help Desk
-Provide help desk information including responsible personnel phone numbers for emergency assistance.
-1.4. Organization of the Manual
-Provide a list of the major sections of the User’s Manual (1.0, 2.0, 3.0, etc.) and a brief description of what is contained in each section.
-1.5. Acronyms and Abbreviations
-Provide a list of the acronyms and abbreviations used in this document and the meaning of each.
-2. System Summary
-This section provides a general overview of the system written in non-technical terminology.  The summary should outline the uses of the system in supporting the activities of the user and staff.
-2.1. System Configuration
-Briefly describe and depict graphically the equipment, communications, and networks used by the system.  Include the type of computer input and output devices.
-2.2. Data Flows
-Briefly describe or depict graphically, the overall flow of data in the system.  Include a user-oriented description of the method used to store and maintain data.
-2.3. User Access Levels
-Describe the different users and/or user groups and the restrictions placed on each for system accessibility or use.
-2.4. Contingencies and Alternate Modes of Operation
-On a high level, explain the continuity of operations in the event of emergency, disaster, or accident.  Explain what the effect of degraded performance will have on the user.
-3. Getting Started
-This section provides a general walkthrough of the system from initiation through exit.  The logical arrangement of the information shall enable the functional personnel to understand the sequence and flow of the system.  Use screen prints to depict examples of text under each heading.
-3.1. Logging On
+Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]
+<table>
+| Callout Style. This is in a table with no visible borders (used for accessibility). You may add lines to the table if you like. |
+|---|
 
 ===========Page 7 ================
-Describe the procedures necessary to access the system, including how to get user identifier identification (ID) and log on.  If applicable, identify job request forms or control statements and the input, frequency, reason, origin, and medium for each type of output.
-3.2. System Menu
-This section describes in general terms the system menu first encountered by the user, as well as the navigation paths to functions noted on the screen.  Each system function should be under a separate section header, 3.2.1 - 3.2.x.
-3.3. Changing User ID and Password
-Describe how the user changes a user ID.  Describe the actions a user must take to change a password.
-3.4. Exit System
-Describe the actions necessary to properly exit the system
-3.5. Special Instructions for Error Correction
-Describe all recovery and error correction procedures, including error conditions that may be generated and corrective actions that may need to be taken.
-3.6. Caveats and Exceptions
-If there are special actions the user must take to insure that data is properly saved or that some other function executes properly, describe those actions here.  Include screen captures and descriptive narratives, if applicable.
-4. Project-Specific Scenario
-Prepare a scenario that applies the features of the tool to the specific environment and characteristics of the project. Prepare a detailed series of instructions (in non-technical terms) describing the procedures the user will need to follow to use the system.  Following are examples of the type of information that might be included in the scenario:
-Detailed procedures to initiate system operation, including identification of job request forms or control statements and the input’s frequency, reason, origin, and medium for each type of output
-Illustrations of input formats
-Descriptions of input preparation rules
-Descriptions of output procedures identifying output formats and specifying the output’s purpose, frequency, options, media, and location
-Identification of all codes and abbreviations used in the system’s output
-Descriptions of the query and retrieval capabilities of the system.  Use screen prints to depict examples.
-Depict and discuss all standard reports that can be generated by the system or internal to the user.  Use screen prints as needed to depict examples of text under each heading.
+This file contains an explanation of the report template, which is designed as a Microsoft Word® template file.
+Placing and Calling Template Files
+You can put this file in your template folder and call it up using New on the File tab. If you prefer, you can open the file directly and save it as a regular document under a new name. Either way should work fine. Putting it in your template folder will make it handy to get to the next time you need to use it.
+Entering Information in This Template
+To create your report, delete the current explanatory text and enter your report information. The chapter intro page is set up with the appropriate section breaks; we recommend you copy and paste entire sections so that you don’t accidentally delete the section breaks. End each chapter with a section break.
+Feel free to email TTI Editing with any Word-related questions.
+Using Styles
+This file contains styles for most of the formatted items you will need to create your report. You can change style characteristics to meet your specific needs and preferences. Using styles gives you several benefits:
+Styles provide consistent formatting from item to item in your document.
+Styles make it easy to change the formatting of similar items wherever they occur throughout a document.
+Styles are crucial to creating an automatically generated table of contents and other lists.
 
 ===========Page 8 ================
-5. Troubleshooting
-Anticipate any problems, issues, or items that a user may need assistance with and provide guidance to the extent possible.
+Once you get familiar with using styles, you will determine your own preferred method of applying them to text. Most people feel the easiest way to get started using styles is to type a segment of text (line, paragraph, or caption) and then go back and choose the style. You can choose the style on the Home tab, or you can click the expansion box on the Styles section of the Home tab to open the Style window. The Style window shows the style of the selection where your cursor rests. At the bottom of the window, the Options button allows you to select style viewing options. Selecting “In current document” and “Alphabetical” decreases the number of styles shown and makes them easy to find.
+Once you apply a style, it will continue until you change styles (unless you specify a following style in your definition—you can find out more about that using the Word help feature). For example, if you block a paragraph and apply the style Body Text, you can continue typing in that style until you need to change to a different style (say, a heading).
+This template has the following built-in styles:
+Headings: Use Heading 1 for major section/chapter headings, Heading 2 for second-level headings, Heading 3 for third-level headings, and so forth. Use the style Heading 1 Not in TOC for the Table of Contents heading, and use Heading 1 Front Matter for headings that are after the table of contents but before the body of the report. If you wish to use a subheading, use at least two. The next section of this document provides more details on heading formats.
+Text: Use the Body Text style for paragraph text. For paragraphs that follow a table and need extra spacing, use Body Text 2. Use the Quote style for any block quotes.
+Lists: Use the List Bullet style for the first level of bulleted items and List Bullet 2 for second-level items. Use the List Number style for the first level of numbered items and List Number 2 for the second-level items. Introduce each bulleted list.
+Equations: Use the Equation style for equations.
+Figures and Tables: Several different styles have been created for figure and table elements. More details on these elements are provided in the third section of this document. Apply the following styles:
+The Figure style for figure images.
+The Caption style for figure captions and the Table Title style for table captions.
 
 ===========Page 9 ================
-Template Revision History
+The Figure Note style for figure notes and the Table Note style for table notes.
+The Table Header style for column headers and the Table Text style for other table cells.
+Feel free to change the font, colors, etc. used in the styles, but remember to do so consistently, and don’t use more than two font families per document.
+Examples of Styles
+[Heading 2 Style, Initial Caps]
+[Heading 3 Style, Initial Caps]
+[Heading 4 Style, Initial Caps]
+[Heading 5 Style, Initial Caps]
+[Body Text style.]
+[List Bullet style.]
+[List Bullet 2 style.]
+[List Number style.]
+[List Number 2 style.]
+Mention Figure 1 in a cross-reference.
+[Figure Note style, type in sentence case.]
+Figure 1. [Caption Style Using Initial Caps and Ending with a Period.]
+
+===========Page 10 ================
+Use the Overview table design style (click in the table and select it on the Table Design tab). Mention Table 1 in a cross-reference.
 <table>
-| Date | Version | Description | Author |
-|---|---|---|---|
-| April 2011 | 1.1 | Formatted to current ProPath documentation standards and edited to conform with latest Alternative Text (Section 508) guidelines | Process Management |
-| June 2009 | 1.0 | Initial Version | PMAS Business Office |
-Place latest revisions at top of table.
-The Template Revision History pertains only to the format of the template. It does not apply to the content of the document or any changes or updates to the content of the document after distribution.
-The Template Revision History can be removed at the discretion of the author of the document.
-Remove blank rows.
+Table 1. [Table Title Style Using Initial Caps and End with a Period.]
+| Table Header | Table Header | Table Header | Table Header | Table Header |
+|---|---|---|---|---|
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+[Table Note style, type in sentence case.]
+Using Section and Page Breaks
+When you begin a new chapter (or section that needs right-hand placement), insert a section break using the next-odd-page option (Layout/Breaks/Odd Page). When you use the next-odd-page option, you will not see a blank even-numbered page on your edit screen, but you will see it in the Print Preview screen and the final PDF. If you insert section breaks for other reasons, you may need to break to a next page (Layout/Breaks/Next Page) rather than an odd page, such as when you create a section for landscape graphics.
+When you create a new section, make sure the page numbering continues from the previous section. Each new chapter should have the chapter title page and the section break following it.
+Avoid using hard returns and page breaks to force text, tables, or graphics to a new page. Instead, use the “Keep lines together” function of paragraph formatting (Home/Paragraph/Line and Page Breaks/Keep lines together). You may also need “Keep with next” (Home/Paragraph/Line and Page Breaks/Keep with next). Avoiding unnecessary page breaks will keep you from having unexpected formatting problems if you need to make revisions that affect pagination and is desirable for accessibility. If you need to check the type of break you have, click the Show/Hide button (¶) on the Home tab.
+
+===========Page 11 ================
+Placing Endnotes
+We recommend endnotes for source citations. You may use whatever formatting style you like for them unless the sponsor has a preference. To insert an endnote, choose References/Insert Endnote (in the Footnotes group). To cite a previously entered endnote, choose References/Cross-reference (in the Captions group).
+Using autogenerated endnotes will place them at the end of your document.
+Adding Appendix Sections after Endnotes
+If your report uses endnotes, Word will automatically place them at the end of the document. If you have appendices, the reference section may appear at the end. If you prefer references to occur before the appendices, follow the instructions found in our Word-Processing Tips in Microsoft Word at https://tti.tamu.edu/documents/editing/word-processing-tips.pdf (page 14).
+Checking Spelling
+Word will sometimes set entered text to “no proofing,” and it will not be included in spell check procedures. To avoid this situation, reset the language of your file before you spell check.
+To change the language of your file, follow these steps:
+Select/highlight the entire file (using Home/Select/Select All or Ctrl+A).
+Go to the Review tab and select Language and then Set Proofing Language.
+Select English (United States).
+Clear the boxes “Do not check spelling or grammar” and “Detect language automatically.”
+
+===========Page 12 ================
+Once you set the language to include all sections of the file, your spell checker should work normally.
+Generating the Table of Contents and Other Lists
+The Table of Contents, List of Figures, and List of Tables will automatically generate based upon styles. These specific styles are discussed in later sections.
+To generate the table of contents in the template, place your cursor on the sample one already created. Right-click and choose Update Field, or hit F9. When the dialog box appears, choose “Update entire table.” Repeat the process for other lists.
+After generating the lists, check them to make sure all headings appear at correct levels and are correctly capitalized. This check gives you the opportunity to verify that you have used appropriate heading styles for each item. Make any necessary changes in the text and then regenerate the list.
+If you make revisions that do not alter headings, you can update the lists using the Page Numbers Only option (right-click/F9/Update page numbers only).
+Sponsor Guidelines
+This template is designed for sponsors that do not have a set format. Always check with your sponsor to see if you need to follow certain guidelines, and inform your editor of those requirements.
+Step-by-step guidance on using templates and styles is available in the Word-Processing Tips in Microsoft Word document at https://tti.tamu.edu/documents/editing/word-processing-tips.pdf.
+
+===========Page 13 ================
+Accessibility
+In most cases, electronic information must be accessible, or 508 compliant. The following general guidelines apply to electronic accessibility of text:
+Use a single-column format for text if possible.
+Assign a style to all text and graphic elements.
+Do not indent (with the tab key) or skip lines (with a hard return) to format paragraphs. Use paragraph attributes instead.
+Use clear, consistent, and simple headings and organizational structure.
+Do not use or reference color to convey meaning.
+Keep tables simple: one row of column headers and one column of row headers. Do not merge cells within the body of the table. The more complex a table is, the more likely assistive technology will not interpret it properly. Fill all cells of the table.
+Create alternative text (alt text) descriptions for all figures. Avoid using Word’s autogenerated alt text. You can access an image’s alt text directly by right-clicking the image and selecting “View alt text…” A box pops up along the right side of your document with a space to enter your alt text. This same box is where you will find Word’s autogenerated alt text.
+If you would like to run Word’s built-in Accessibility Checker, select the Review tab and then click on “Check Accessibility.” The checker will list its inspection results along the right side of your document. Any figures that are missing alt text or have Word’s suggested alternative text inserted will be included in the results.
+
+===========Page 14 ================
+Chapter 2. Heading Styles
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+
+===========Page 15 ================
+You do not need to number chapters, but we recommend it. Format chapter titles as Heading 1, which is a first-level heading.
+Only major sections that appear after the table of contents (TOC) should be included in the TOC. Use the Heading 1 Not in TOC style for the TOC heading, and use the Heading 1 Front Matter style for headings that are after the TOC but before the body of the report; the latter will be included in the TOC.
+Use Heading 1 for major section/chapter headings, Heading 2 for second-level headings, Heading 3 for third-level headings, and so forth.
+Type a Heading 1 title in initial caps only, not all caps, so it will show up correctly in the TOC.
+Second-Level Headings
+Type the second-level heading in initial caps. Format second-level headings as Heading 2.
+Although this illustrative material does not follow this guideline, in an actual report, there should be at least two of a specific subheading level within a section.
+Third-Level Heading
+Type the third-level headings with initial caps. Format third-level headings as Heading 3.
+Fourth-Level Heading
+Type the fourth-level headings with initial caps. Format fourth-level headings as Heading 4.
+Fifth-Level Heading
+Type the fifth-level headings with initial caps. Format fifth-level headings as Heading 5.
+
+===========Page 16 ================
+Chapter 3. Figures and Tables
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+
+===========Page 17 ================
+Placing Graphics and Tables
+Graphics and tables need to be inserted into the document with certain formatting characteristics, such as position and wrapping style. When inserting a figure, place it on its own line and set its position to In Line with Text (right-click/Wrap Text/In Line with Text). Next, apply the Figure style, which will position it correctly (left aligned with appropriate spacing before/after) on the page. When inserting a table, right click in the table, click on Table Design, and select the Overview style.
+All figures and tables must directly follow their callouts in text.
+Landscape Placement
+Tables and figures should not extend outside of the set margins. Larger tables or figures require landscape orientation. If a table or figure needs to use landscape orientation, the captions should also use landscape orientation. Tables and figures, their captions, and any related notes can be placed on a landscape page. No other text (e.g., headings and body paragraphs) should appear on landscape pages.
+To change the page orientation to landscape:
+Before the page you wish to change to landscape, insert a section break: on the Layout tab in the Page Setup group, click the Breaks button and select Section Break Next Page. Delete any extra returns.
+After the page you wish to change to landscape, insert a section break the same way. Delete any extra returns.
+On the first landscape page, on the Layout tab in the Page Setup group, click the Orientation button. Select Landscape.
+Insert the illustration and caption, or table title and table, on the landscape page.
+
+===========Page 18 ================
+Automatic Figure/Table Numbering
+Figure and table numbering must be autogenerated in Word. To insert automatic figure/table numbers, follow these steps:
+Position your cursor where you wish to insert the caption.
+On the References tab, select Insert Caption. The Caption window appears.
+Under Options/Label, select Figure or Table and click OK. Word inserts a consecutive figure/table number.
+Once the number is autogenerated, you can type in the caption. Word’s default is to automatically assign the Caption style to both figures and tables; for table captions, you will need to click on the caption and assign the Table Title style instead.
+If you make changes, select the figure or table number and click F9 to update the number.
+Automatic Cross-Reference to Figures/Tables
+Figures and tables must be called out in the text prior to figure or table placement (within 1.5 pages of where the figure or table appears). The callouts must be autogenerated cross-references to the figure/table number (not the entire caption). To create a cross-reference to a figure or table, follow these steps:
+On the Insert tab, select Cross-reference.
+For Reference type, select Figure or Table. For Insert reference to, select Only label and number. For which caption, select the figure/table you’re referring to.
+Line Breaks Inserted by Word
+Sometimes automatic cross-references cause a glitch in Word where a line break or other oddity is inserted before or after the cross-reference. This generally happens when you add a line break or text before the figure or table number you’re referencing. Basically, the information you type gets caught in the Word code for the caption.
+
+===========Page 19 ================
+To correct this undesired formatting, you can delete the caption and replace it. Remember to check any other cross-references to that caption because they will probably become unlinked.
+Sample Captioning
+Figure 2 and Table 2 show sample captioned items. Figure captions use the Caption style, and table captions use the Table Title style. Use the Overview table design style (in the Table Design tab) for the table.
+Figure Note style, type in sentence case.
+Figure 2. Sample Figure Caption.
+<table>
+Table 2. Sample Table Caption.
+| Table Header | Table Header | Table Header | Table Header | Table Header |
+|---|---|---|---|---|
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+Table Note style, type in sentence case.
+Figure and Table Formatting
+Figure 2 shows a sample of correct figure placement (with the Figure style assigned and In Line with Text positioning). Figure notes (Figure Note style) are placed between the figure and the caption. You can also use this if you need to give the source.
+
+===========Page 20 ================
+Table 2 shows sample formatting for table column headers (Table Header style) and table text (Table Text style). Use the Table Note style for all table notations. Notes should be placed below the table, not within the table itself. Table headers and text can be modified if needed for space or desired appearance. For example, text can be smaller (but no smaller than 8 point), all centered, right aligned, etc. Use the note section to define abbreviations (e.g., N/A) or explain what a dash represents (if used). For 508 compliance, avoid leaving empty cells.
+Table footnotes must have a corresponding notation within the table.
+As noted previously, use the Body Text 2 style for paragraphs that follow tables. This style includes the appropriate spacing between the table and the text.
+
+===========Page 21 ================
+References
+Reference listings may use any standard, accepted style as long as the style is applied consistently to all entries and the sponsor has no other preference. All entries must include complete and consistent information such that the reader is able to locate the source. Information that is not available to the reader (e.g., personal communications and unpublished documents) should not be in the reference list but can be noted via a parenthetical explanation or a footnote in the text.
 
