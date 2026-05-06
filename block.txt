@@ -1,0 +1,414 @@
+===========Page 1 ================
+<image>
+[image: image.jpg] (unrecognized)
+<paragraph>
+[Title Style, Initial Caps]
+<paragraph>
+[Subtitle Style, Initial Caps]
+<paragraph>
+Authors:
+<paragraph>
+[Name, Name, and Name; Cover Text Style]
+<paragraph>
+Prepared for [Sponsor]
+<paragraph>
+[Month and Year]
+
+===========Page 3 ================
+<Table of content>
+Table of Contents
+Table of Contents
+- List of Figures	iv
+- List of Tables	iv
+- Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]	1
+- Placing and Calling Template Files	2
+- Entering Information in This Template	2
+- Using Styles	2
+- Examples of Styles	4
+- [Heading 2 Style, Initial Caps]	4
+- [Heading 3 Style, Initial Caps]	4
+- Using Section and Page Breaks	5
+- Placing Endnotes	5
+- Adding Appendix Sections after Endnotes	5
+- Checking Spelling	6
+- Generating the Table of Contents and Other Lists	6
+- Sponsor Guidelines	6
+- Accessibility	7
+- Chapter 2. Heading Styles	9
+- Second-Level Headings	10
+- Third-Level Heading	10
+- Chapter 3. Figures and Tables	11
+- Placing Graphics and Tables	12
+- Landscape Placement	12
+- Automatic Figure/Table Numbering	12
+- Automatic Cross-Reference to Figures/Tables	13
+- Line Breaks Inserted by Word	13
+- Sample Captioning	13
+- Figure and Table Formatting	14
+- References	15
+
+===========Page 4 ================
+<Table of content>
+Table of Contents
+Table of Contents
+- List of Figures	iv
+- List of Tables	iv
+- Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]	1
+- Placing and Calling Template Files	2
+- Entering Information in This Template	2
+- Using Styles	2
+- Examples of Styles	4
+- [Heading 2 Style, Initial Caps]	4
+- [Heading 3 Style, Initial Caps]	4
+- Using Section and Page Breaks	5
+- Placing Endnotes	5
+- Adding Appendix Sections after Endnotes	5
+- Checking Spelling	6
+- Generating the Table of Contents and Other Lists	6
+- Sponsor Guidelines	6
+- Accessibility	7
+- Chapter 2. Heading Styles	9
+- Second-Level Headings	10
+- Third-Level Heading	10
+- Chapter 3. Figures and Tables	11
+- Placing Graphics and Tables	12
+- Landscape Placement	12
+- Automatic Figure/Table Numbering	12
+- Automatic Cross-Reference to Figures/Tables	13
+- Line Breaks Inserted by Word	13
+- Sample Captioning	13
+- Figure and Table Formatting	14
+- References	15
+
+===========Page 5 ================
+<List of figures>
+List of Figures
+List of Figures
+- Figure 1. [Caption Style Using Initial Caps and Ending with a Period.]	4
+- Figure 2. Sample Figure Caption.	13
+<List of tables>
+List of Tables
+List of Tables
+- Table 1. [Table Title Style Using Initial Caps and End with a Period.]	4
+- Table 2. Sample Table Caption.	14
+
+===========Page 6 ================
+<paragraph>
+Chapter 1. Using the Template [Heading 1 Style, Type in Initial Caps, Keep the Section Break after This Heading]
+<table>
+| Callout Style. This is in a table with no visible borders (used for accessibility). You may add lines to the table if you like. |
+|---|
+
+===========Page 7 ================
+<table>
+| Callout Style. This is in a table with no visible borders (used for accessibility). You may add lines to the table if you like. |
+|---|
+<paragraph>
+This file contains an explanation of the report template, which is designed as a Microsoft Word® template file.
+<paragraph>
+Placing and Calling Template Files
+<paragraph>
+You can put this file in your template folder and call it up using New on the File tab. If you prefer, you can open the file directly and save it as a regular document under a new name. Either way should work fine. Putting it in your template folder will make it handy to get to the next time you need to use it.
+<paragraph>
+Entering Information in This Template
+<paragraph>
+To create your report, delete the current explanatory text and enter your report information. The chapter intro page is set up with the appropriate section breaks; we recommend you copy and paste entire sections so that you don’t accidentally delete the section breaks. End each chapter with a section break.
+<paragraph>
+Feel free to email TTI Editing with any Word-related questions.
+<paragraph>
+Using Styles
+<paragraph>
+This file contains styles for most of the formatted items you will need to create your report. You can change style characteristics to meet your specific needs and preferences. Using styles gives you several benefits:
+<paragraph>
+Styles provide consistent formatting from item to item in your document.
+<paragraph>
+Styles make it easy to change the formatting of similar items wherever they occur throughout a document.
+<paragraph>
+Styles are crucial to creating an automatically generated table of contents and other lists.
+<paragraph>
+Once you get familiar with using styles, you will determine your own preferred method of applying them to text. Most people feel the easiest way to get started using styles is to type a segment of text (line, paragraph, or caption) and then go back and choose the style. You can choose the style on the Home tab, or you can click the expansion box on the Styles section of the Home tab to open the Style window. The Style window shows the style of the selection where your cursor rests. At the bottom of the window, the Options button allows you to select style viewing options. Selecting “In current document” and “Alphabetical” decreases the number of styles shown and makes them easy to find.
+
+===========Page 8 ================
+<paragraph>
+Once you get familiar with using styles, you will determine your own preferred method of applying them to text. Most people feel the easiest way to get started using styles is to type a segment of text (line, paragraph, or caption) and then go back and choose the style. You can choose the style on the Home tab, or you can click the expansion box on the Styles section of the Home tab to open the Style window. The Style window shows the style of the selection where your cursor rests. At the bottom of the window, the Options button allows you to select style viewing options. Selecting “In current document” and “Alphabetical” decreases the number of styles shown and makes them easy to find.
+<paragraph>
+Once you apply a style, it will continue until you change styles (unless you specify a following style in your definition—you can find out more about that using the Word help feature). For example, if you block a paragraph and apply the style Body Text, you can continue typing in that style until you need to change to a different style (say, a heading).
+<paragraph>
+This template has the following built-in styles:
+<paragraph>
+Headings: Use Heading 1 for major section/chapter headings, Heading 2 for second-level headings, Heading 3 for third-level headings, and so forth. Use the style Heading 1 Not in TOC for the Table of Contents heading, and use Heading 1 Front Matter for headings that are after the table of contents but before the body of the report. If you wish to use a subheading, use at least two. The next section of this document provides more details on heading formats.
+<paragraph>
+Text: Use the Body Text style for paragraph text. For paragraphs that follow a table and need extra spacing, use Body Text 2. Use the Quote style for any block quotes.
+<paragraph>
+Lists: Use the List Bullet style for the first level of bulleted items and List Bullet 2 for second-level items. Use the List Number style for the first level of numbered items and List Number 2 for the second-level items. Introduce each bulleted list.
+<paragraph>
+Equations: Use the Equation style for equations.
+<paragraph>
+Figures and Tables: Several different styles have been created for figure and table elements. More details on these elements are provided in the third section of this document. Apply the following styles:
+<paragraph>
+The Figure style for figure images.
+<paragraph>
+The Caption style for figure captions and the Table Title style for table captions.
+<paragraph>
+The Figure Note style for figure notes and the Table Note style for table notes.
+
+===========Page 9 ================
+<paragraph>
+The Table Header style for column headers and the Table Text style for other table cells.
+<paragraph>
+Feel free to change the font, colors, etc. used in the styles, but remember to do so consistently, and don’t use more than two font families per document.
+<paragraph>
+Examples of Styles
+<paragraph>
+[Heading 2 Style, Initial Caps]
+<paragraph>
+[Heading 3 Style, Initial Caps]
+<paragraph>
+[Heading 4 Style, Initial Caps]
+<paragraph>
+[Heading 5 Style, Initial Caps]
+<paragraph>
+[Body Text style.]
+<paragraph>
+[List Bullet style.]
+<paragraph>
+[List Bullet 2 style.]
+<paragraph>
+[List Number style.]
+<paragraph>
+[List Number 2 style.]
+<paragraph>
+Mention Figure 1 in a cross-reference.
+<paragraph>
+[Figure Note style, type in sentence case.]
+<paragraph>
+Figure 1. [Caption Style Using Initial Caps and Ending with a Period.]
+<paragraph>
+Use the Overview table design style (click in the table and select it on the Table Design tab). Mention Table 1 in a cross-reference.
+<paragraph>
+[Table Note style, type in sentence case.]
+
+===========Page 10 ================
+<table>
+Table 1. [Table Title Style Using Initial Caps and End with a Period.]
+| Table Header | Table Header | Table Header | Table Header | Table Header |
+|---|---|---|---|---|
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+<paragraph>
+Using Section and Page Breaks
+<paragraph>
+When you begin a new chapter (or section that needs right-hand placement), insert a section break using the next-odd-page option (Layout/Breaks/Odd Page). When you use the next-odd-page option, you will not see a blank even-numbered page on your edit screen, but you will see it in the Print Preview screen and the final PDF. If you insert section breaks for other reasons, you may need to break to a next page (Layout/Breaks/Next Page) rather than an odd page, such as when you create a section for landscape graphics.
+<paragraph>
+When you create a new section, make sure the page numbering continues from the previous section. Each new chapter should have the chapter title page and the section break following it.
+<paragraph>
+Avoid using hard returns and page breaks to force text, tables, or graphics to a new page. Instead, use the “Keep lines together” function of paragraph formatting (Home/Paragraph/Line and Page Breaks/Keep lines together). You may also need “Keep with next” (Home/Paragraph/Line and Page Breaks/Keep with next). Avoiding unnecessary page breaks will keep you from having unexpected formatting problems if you need to make revisions that affect pagination and is desirable for accessibility. If you need to check the type of break you have, click the Show/Hide button (¶) on the Home tab.
+
+===========Page 11 ================
+<paragraph>
+Placing Endnotes
+<paragraph>
+We recommend endnotes for source citations. You may use whatever formatting style you like for them unless the sponsor has a preference. To insert an endnote, choose References/Insert Endnote (in the Footnotes group). To cite a previously entered endnote, choose References/Cross-reference (in the Captions group).
+<paragraph>
+Using autogenerated endnotes will place them at the end of your document.
+<paragraph>
+Adding Appendix Sections after Endnotes
+<paragraph>
+If your report uses endnotes, Word will automatically place them at the end of the document. If you have appendices, the reference section may appear at the end. If you prefer references to occur before the appendices, follow the instructions found in our Word-Processing Tips in Microsoft Word at https://tti.tamu.edu/documents/editing/word-processing-tips.pdf (page 14).
+<paragraph>
+Checking Spelling
+<paragraph>
+Word will sometimes set entered text to “no proofing,” and it will not be included in spell check procedures. To avoid this situation, reset the language of your file before you spell check.
+<paragraph>
+To change the language of your file, follow these steps:
+<paragraph>
+Select/highlight the entire file (using Home/Select/Select All or Ctrl+A).
+<paragraph>
+Go to the Review tab and select Language and then Set Proofing Language.
+<paragraph>
+Select English (United States).
+<paragraph>
+Clear the boxes “Do not check spelling or grammar” and “Detect language automatically.”
+
+===========Page 12 ================
+<paragraph>
+Once you set the language to include all sections of the file, your spell checker should work normally.
+<paragraph>
+Generating the Table of Contents and Other Lists
+<paragraph>
+The Table of Contents, List of Figures, and List of Tables will automatically generate based upon styles. These specific styles are discussed in later sections.
+<paragraph>
+To generate the table of contents in the template, place your cursor on the sample one already created. Right-click and choose Update Field, or hit F9. When the dialog box appears, choose “Update entire table.” Repeat the process for other lists.
+<paragraph>
+After generating the lists, check them to make sure all headings appear at correct levels and are correctly capitalized. This check gives you the opportunity to verify that you have used appropriate heading styles for each item. Make any necessary changes in the text and then regenerate the list.
+<paragraph>
+If you make revisions that do not alter headings, you can update the lists using the Page Numbers Only option (right-click/F9/Update page numbers only).
+<paragraph>
+Sponsor Guidelines
+<paragraph>
+This template is designed for sponsors that do not have a set format. Always check with your sponsor to see if you need to follow certain guidelines, and inform your editor of those requirements.
+<paragraph>
+Step-by-step guidance on using templates and styles is available in the Word-Processing Tips in Microsoft Word document at https://tti.tamu.edu/documents/editing/word-processing-tips.pdf.
+
+===========Page 13 ================
+<paragraph>
+Accessibility
+<paragraph>
+In most cases, electronic information must be accessible, or 508 compliant. The following general guidelines apply to electronic accessibility of text:
+<paragraph>
+Use a single-column format for text if possible.
+<paragraph>
+Assign a style to all text and graphic elements.
+<paragraph>
+Do not indent (with the tab key) or skip lines (with a hard return) to format paragraphs. Use paragraph attributes instead.
+<paragraph>
+Use clear, consistent, and simple headings and organizational structure.
+<paragraph>
+Do not use or reference color to convey meaning.
+<paragraph>
+Keep tables simple: one row of column headers and one column of row headers. Do not merge cells within the body of the table. The more complex a table is, the more likely assistive technology will not interpret it properly. Fill all cells of the table.
+<paragraph>
+Create alternative text (alt text) descriptions for all figures. Avoid using Word’s autogenerated alt text. You can access an image’s alt text directly by right-clicking the image and selecting “View alt text…” A box pops up along the right side of your document with a space to enter your alt text. This same box is where you will find Word’s autogenerated alt text.
+<paragraph>
+If you would like to run Word’s built-in Accessibility Checker, select the Review tab and then click on “Check Accessibility.” The checker will list its inspection results along the right side of your document. Any figures that are missing alt text or have Word’s suggested alternative text inserted will be included in the results.
+
+===========Page 14 ================
+<paragraph>
+Chapter 2. Heading Styles
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+
+===========Page 15 ================
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+<paragraph>
+You do not need to number chapters, but we recommend it. Format chapter titles as Heading 1, which is a first-level heading.
+<paragraph>
+Only major sections that appear after the table of contents (TOC) should be included in the TOC. Use the Heading 1 Not in TOC style for the TOC heading, and use the Heading 1 Front Matter style for headings that are after the TOC but before the body of the report; the latter will be included in the TOC.
+<paragraph>
+Use Heading 1 for major section/chapter headings, Heading 2 for second-level headings, Heading 3 for third-level headings, and so forth.
+<paragraph>
+Type a Heading 1 title in initial caps only, not all caps, so it will show up correctly in the TOC.
+<paragraph>
+Second-Level Headings
+<paragraph>
+Type the second-level heading in initial caps. Format second-level headings as Heading 2.
+<paragraph>
+Although this illustrative material does not follow this guideline, in an actual report, there should be at least two of a specific subheading level within a section.
+<paragraph>
+Third-Level Heading
+<paragraph>
+Type the third-level headings with initial caps. Format third-level headings as Heading 3.
+<paragraph>
+Fourth-Level Heading
+<paragraph>
+Type the fourth-level headings with initial caps. Format fourth-level headings as Heading 4.
+<paragraph>
+Fifth-Level Heading
+<paragraph>
+Type the fifth-level headings with initial caps. Format fifth-level headings as Heading 5.
+
+===========Page 16 ================
+<paragraph>
+Chapter 3. Figures and Tables
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+
+===========Page 17 ================
+<table>
+| [Callout Style. This is in a table with no visible borders (used for accessibility).] |
+|---|
+<paragraph>
+Placing Graphics and Tables
+<paragraph>
+Graphics and tables need to be inserted into the document with certain formatting characteristics, such as position and wrapping style. When inserting a figure, place it on its own line and set its position to In Line with Text (right-click/Wrap Text/In Line with Text). Next, apply the Figure style, which will position it correctly (left aligned with appropriate spacing before/after) on the page. When inserting a table, right click in the table, click on Table Design, and select the Overview style.
+<paragraph>
+All figures and tables must directly follow their callouts in text.
+<paragraph>
+Landscape Placement
+<paragraph>
+Tables and figures should not extend outside of the set margins. Larger tables or figures require landscape orientation. If a table or figure needs to use landscape orientation, the captions should also use landscape orientation. Tables and figures, their captions, and any related notes can be placed on a landscape page. No other text (e.g., headings and body paragraphs) should appear on landscape pages.
+<paragraph>
+To change the page orientation to landscape:
+<paragraph>
+Before the page you wish to change to landscape, insert a section break: on the Layout tab in the Page Setup group, click the Breaks button and select Section Break Next Page. Delete any extra returns.
+<paragraph>
+After the page you wish to change to landscape, insert a section break the same way. Delete any extra returns.
+<paragraph>
+On the first landscape page, on the Layout tab in the Page Setup group, click the Orientation button. Select Landscape.
+<paragraph>
+Insert the illustration and caption, or table title and table, on the landscape page.
+
+===========Page 18 ================
+<paragraph>
+Automatic Figure/Table Numbering
+<paragraph>
+Figure and table numbering must be autogenerated in Word. To insert automatic figure/table numbers, follow these steps:
+<paragraph>
+Position your cursor where you wish to insert the caption.
+<paragraph>
+On the References tab, select Insert Caption. The Caption window appears.
+<paragraph>
+Under Options/Label, select Figure or Table and click OK. Word inserts a consecutive figure/table number.
+<paragraph>
+Once the number is autogenerated, you can type in the caption. Word’s default is to automatically assign the Caption style to both figures and tables; for table captions, you will need to click on the caption and assign the Table Title style instead.
+<paragraph>
+If you make changes, select the figure or table number and click F9 to update the number.
+<paragraph>
+Automatic Cross-Reference to Figures/Tables
+<paragraph>
+Figures and tables must be called out in the text prior to figure or table placement (within 1.5 pages of where the figure or table appears). The callouts must be autogenerated cross-references to the figure/table number (not the entire caption). To create a cross-reference to a figure or table, follow these steps:
+<paragraph>
+On the Insert tab, select Cross-reference.
+<paragraph>
+For Reference type, select Figure or Table. For Insert reference to, select Only label and number. For which caption, select the figure/table you’re referring to.
+<paragraph>
+Line Breaks Inserted by Word
+<paragraph>
+Sometimes automatic cross-references cause a glitch in Word where a line break or other oddity is inserted before or after the cross-reference. This generally happens when you add a line break or text before the figure or table number you’re referencing. Basically, the information you type gets caught in the Word code for the caption.
+
+===========Page 19 ================
+<paragraph>
+To correct this undesired formatting, you can delete the caption and replace it. Remember to check any other cross-references to that caption because they will probably become unlinked.
+<paragraph>
+Sample Captioning
+<paragraph>
+Figure 2 and Table 2 show sample captioned items. Figure captions use the Caption style, and table captions use the Table Title style. Use the Overview table design style (in the Table Design tab) for the table.
+<paragraph>
+Figure Note style, type in sentence case.
+<paragraph>
+Figure 2. Sample Figure Caption.
+<paragraph>
+Table Note style, type in sentence case.
+<paragraph>
+Figure and Table Formatting
+<paragraph>
+Figure 2 shows a sample of correct figure placement (with the Figure style assigned and In Line with Text positioning). Figure notes (Figure Note style) are placed between the figure and the caption. You can also use this if you need to give the source.
+<paragraph>
+Table 2 shows sample formatting for table column headers (Table Header style) and table text (Table Text style). Use the Table Note style for all table notations. Notes should be placed below the table, not within the table itself. Table headers and text can be modified if needed for space or desired appearance. For example, text can be smaller (but no smaller than 8 point), all centered, right aligned, etc. Use the note section to define abbreviations (e.g., N/A) or explain what a dash represents (if used). For 508 compliance, avoid leaving empty cells.
+
+===========Page 20 ================
+<table>
+Table 2. Sample Table Caption.
+| Table Header | Table Header | Table Header | Table Header | Table Header |
+|---|---|---|---|---|
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+| Table text | Table text | Table text | Table text | Table text |
+<paragraph>
+Table 2 shows sample formatting for table column headers (Table Header style) and table text (Table Text style). Use the Table Note style for all table notations. Notes should be placed below the table, not within the table itself. Table headers and text can be modified if needed for space or desired appearance. For example, text can be smaller (but no smaller than 8 point), all centered, right aligned, etc. Use the note section to define abbreviations (e.g., N/A) or explain what a dash represents (if used). For 508 compliance, avoid leaving empty cells.
+<paragraph>
+Table footnotes must have a corresponding notation within the table.
+<paragraph>
+As noted previously, use the Body Text 2 style for paragraphs that follow tables. This style includes the appropriate spacing between the table and the text.
+
+===========Page 21 ================
+<paragraph>
+References
+<paragraph>
+Reference listings may use any standard, accepted style as long as the style is applied consistently to all entries and the sponsor has no other preference. All entries must include complete and consistent information such that the reader is able to locate the source. Information that is not available to the reader (e.g., personal communications and unpublished documents) should not be in the reference list but can be noted via a parenthetical explanation or a footnote in the text.
+
